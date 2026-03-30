@@ -51,14 +51,14 @@ Exceptions: 3 : 1 for:
 - Red / Green 🟥🟩
 - Red / Black/Grey 🟥⬛ (due to low brightness contrast)
 
-**Tritanopia** 🩵🩷 (blue-yellow blind, rare)
-- Difficulty distinguishing blue vs green and yellow vs violet<br>
+**Tritanopia** 🩵🩷 (blue-yellow blind, rare)<br>
+Difficulty distinguishing blue vs green and yellow vs violet<br>
 **Problematic combinations:**
 - Blue / Green 🟦🟩
 - Blue / Grey 🟦⬛
 - Blue / Purple 🟦🟪
 
-**Achromatopsia** ⬛⬜ (monochrome, very rare)
+**Achromatopsia** ⬛⬜ (monochrome, very rare)<br>
 Sees only greyscale (no colour perception)<br>
 **Problematic combinations:**
 - Any colour-only differences
