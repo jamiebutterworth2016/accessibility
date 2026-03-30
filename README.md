@@ -36,48 +36,31 @@ Exceptions: 3 : 1 for:
 <hr>
 
 ## 2. Colour Vision Deficiency (CVD)
-**Common types**
-- Protanopia (red-blind): Difficulty distinguishing red and green
-- Deuteranopia (green-blind) (most common): Mainly sees blue and yellow
-- Tritanopia (blue-yellow blind): Sees pinks and blues differently
-- Achromatopsia (monochrome): Sees only greyscale. Affects ~1 in 12 men
+**Types**
+- Deuteranopia 🟦🟨 (green-blind) (most common): Mainly sees blue and yellow
+- Protanopia 🟦🟨 (red-blind): Difficulty distinguishing red and green
+- Tritanopia 🩵🩷 (blue-yellow blind): Sees pinks and blues differently
+- Achromatopsia ⬛⬜ (monochrome): Sees only greyscale. Affects ~1 in 12 men
 
-**Key issues**
-- Users may not distinguish certain colour combinations
-- Example: red berries on a green bush may be invisible
-
-**Problematic colour combinations**
+**Problematic combinations**
 - Green / Red 🟩🟥
 - Green / Blue 🟩🟦
-- Green / Black and Grey 🟩⬛
+- Green / Black/Grey 🟩⬛
 - Blue / Grey 🟦⬛
 - Blue / Purple 🟦🟪
 
-**Tools**
-Use plugins/simulators to preview designs under different colour vision conditions
+**Tools**: Use simulators or plugins to preview designs under different CVD conditions
 
 <hr>
 
 ## 3. Colour Independence
-**Core principle**
-Colour must NOT be the only way to convey information
-
-**Testing methods**
-- Greyscale test → checks colourblind accessibility
-- Contrast test → checks visual clarity
-
+**Principle**: Colour must not be the only way to convey information
+**Testing**
+- Greyscale test ⬛⬜ → colourblind accessibility
+- Contrast test → visual clarity
 **Design approach**
-- Start in black and white
-- Add colour later as enhancement only
-
-**Alternative indicators**
-- Text labels
-- Icons
-- Shapes
-- Underlines
-- Bold text
-- Patterns
-Avoid relying only on colour changes
+- Start in black and white; add colour later as enhancement
+- Use alternative indicators: text labels, icons, shapes, underlines, bold text, patterns.
 
 <hr>
 
