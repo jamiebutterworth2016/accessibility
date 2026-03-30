@@ -71,7 +71,6 @@ Colour must NOT be the only way to convey information
 - Add colour later as enhancement only
 
 **Alternative indicators**
-Use:
 - Text labels
 - Icons
 - Shapes
@@ -84,7 +83,6 @@ Avoid relying only on colour changes
 
 ## 4. UI & Interaction Design
 **State indication (menus, steps, etc.)**
-Use:
 - Underlines
 - Bold text
 - Icons (e.g. ticks ✔)
@@ -98,6 +96,8 @@ Indicate completion with:
 - Lines between steps
 - Bold or underlined current step
 
+<hr>
+
 ## 5. Data Visualisation (Charts & Graphs)
 **General principles**
 - Must be colour independent
@@ -105,7 +105,6 @@ Indicate completion with:
 - Maintain minimum 3:1 contrast
 
 **Bar charts**
-Use:
 - Pattern fills (instead of only colour)
 - Labels or values above bars
 - Interactive highlighting (hover/tap)
@@ -120,13 +119,16 @@ Differentiate lines using:
 - Provide alternative formats (e.g. tables)
 - Use scalable SVGs
 - Ensure clear contrast and readability
-- 
+
+<hr>
+
 ## 6. Maps & Visual Systems
-Use:
 - Labels instead of colour-only indicators
 - Different line styles (solid, dotted)
 - Patterns and shapes
 Ensure usability in greyscale
+
+<hr>
 
 ## 7. Types of Impairments to Consider
 - Visual (contrast, acuity, colour vision)
