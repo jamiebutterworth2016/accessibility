@@ -9,7 +9,7 @@
 - Text, images of text
 - UI components: buttons, toggles, charts
 
-**Decorative and disabled elements are exempt:**
+**Decorative/disabled elements are exempt:**
 - Background patterns, artistic borders, logos, photos, non-functional icons
 
 **Contrast ratios**
@@ -66,8 +66,6 @@ Exceptions: 3 : 1 for:
 
 ---
 
-**Design for Colour Independence**
-
 **Testing:**
 - Greyscale test ⬛⬜ → checks colourblind accessibility  
 - Contrast test → checks visual clarity
@@ -87,41 +85,33 @@ Exceptions: 3 : 1 for:
 
 ## 3. Visualisation & Maps: Colour-Independent Design
 **Principles**:
-- Must be colour-independent
-Minimum 3:1 contrast
-Pass greyscale test ⬛⬜
-Provide alternative formats when possible (e.g., tables)
+- Colour-independent design
+- Minimum 3:1 contrast
+- Pass greyscale test ⬛⬜
+- Provide alternative formats (e.g., tables)
 
 **Charts & Graphs**
-
-**Bar charts**
-- Use pattern fills instead of only colour
-- Add labels/values above bars
-- Interactive highlighting (hover/tap)
-
-**Line graphs**
-- Differentiate lines using dashes, dots, or shapes
-- Alternative formats (tables)
-- Use scalable SVGs
+- **Bar charts:** pattern fills, labels/values above bars, interactive highlighting (hover/tap)
+- **Line graphs:** differentiate lines with dashes, dots, shapes; alternative formats; scalable SVGs
 
 **Maps & Visual Systems**
 - Use labels instead of colour-only indicators
-- Use different line styles (solid, dotted)
-- Use patterns and shapes
+- Different line styles: solid, dotted
+- Patterns, shapes
 - Ensure usability in greyscale
 
 Rule: Never rely on colour alone to convey information
 
 <hr>
 
-## 4. Types of Impairments to Consider
+## 4. Types of Impairments
 - Visual: contrast, acuity, colour vision
 - Auditory
 - Motor
 - Cognitive
 
 **Key terms**
-- CVD: Colour Vision Deficiency → difficulty distinguishing colours
+- CVD (Colour Vision Deficiency): difficulty distinguishing colours
 - Acuity: clarity of vision
 
 ![Untitled](https://github.com/user-attachments/assets/0ec6cfb7-8cb0-46c8-a370-2907b949f12e)
