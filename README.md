@@ -36,8 +36,10 @@ Exceptions: 3 : 1 for:
 <hr>
 
 ## 2. Colour Vision Deficiency (CVD)
-**Deuteranopia** 🟦🟨 (green-blind, most common)
-Mainly sees blue and yellow; cannot distinguish red and green
+
+**Deuteranopia** 🟦🟨 (green-blind, most common).
+Mainly sees blue and yellow; cannot distinguish red and green.
+
 **Problematic combinations:**
 - Red / Green 🟥🟩
 - Green / Blue 🟩🟦
