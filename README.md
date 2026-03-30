@@ -1,7 +1,6 @@
 # Accessibility & Usability Notes
 
 ## 1. Colour Contrast
-- Low contrast sensitivity is common, especially with age
 - Ensure text and key elements are readable
 - Guided by the W3C Web Accessibility Initiative
 
@@ -26,44 +25,17 @@ Exceptions: 3 : 1 for:
 
 <hr>
 
-## 2. Colour Vision Deficiency (CVD) & Colour Independence
+## 2. Colour Independence
 
-**Principle:** Colour must not be the only way to convey information  
+**Principle:** Colour must not be the only way to convey information<br>
+Colour Vision Deficiency (CVD)
 
----
-
-**Deuteranopia** 🟦🟨 (green-blind, most common)  
-- Reduced sensitivity to green → red/green confusion  
-
-**Hard to distinguish:**
-- Red / Green 🟥🟩  
-- Green / Brown 🟩🟫  
-- Green / Blue 🟩🟦 (sometimes)  
-
-
-**Protanopia** 🟦🟨 (red-blind)  
-- Reduced sensitivity to red (reds appear darker) → red/green confusion  
-
-**Hard to distinguish:**
-- Red / Green 🟥🟩  
-- Red / Black/Grey 🟥⬛  
-
-
-**Tritanopia** 🩵🩷 (blue-yellow blind, rare)  
-- Difficulty distinguishing blue/green and yellow/violet  
-
-**Hard to distinguish:**
-- Blue / Green 🟦🟩  
-- Blue / Purple 🟦🟪  
-- Yellow / Violet 🟨🟪  
-
-
-**Achromatopsia** ⬛⬜ (monochrome, very rare)  
-- No colour vision (greyscale only)  
-
-**Hard to distinguish:**
-- Any colour-only differences
-
+| CVD Type        | Description               | Hard-to-Distinguish Colours                             |
+|-----------------|---------------------------|---------------------------------------------------------|
+| Deuteranopia 🟦🟨 | Green-blind, most common  | Red/Green 🟥🟩, Brown/Green 🟫🟩, Blue/Green 🟦🟩 |
+| Protanopia 🟦🟨   | Red-blind                 | Red/Green 🟥🟩, Red/Grey 🟥⬛                        |
+| Tritanopia 🩵🩷   | Blue-yellow blind, rare   | Blue/Green 🟦🟩, Blue/Purple 🟦🟪, Yellow/Violet 🟨🟪        |
+| Achromatopsia ⬛⬜ | Monochrome, very rare     | Any colour-only differences                              |
 ---
 
 **Testing:**
