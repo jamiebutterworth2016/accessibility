@@ -36,31 +36,33 @@ Exceptions: 3 : 1 for:
 <hr>
 
 ## 2. Colour Vision Deficiency (CVD)
-
-**Deuteranopia** 🟦🟨 (green-blind, most common).
-Mainly sees blue and yellow; cannot distinguish red and green.
-
+**Deuteranopia** 🟦🟨 (green-blind, most common)
+- Reduced sensitivity to green light
+- Cannot reliably distinguish red and green
 **Problematic combinations:**
 - Red / Green 🟥🟩
+- Green / Brown 🟩🟫
 - Green / Blue 🟩🟦
-- Green / Black/Grey 🟩⬛
 
 **Protanopia** 🟦🟨 (red-blind)
-Mainly sees blue and yellow; cannot distinguish red and green
+- Reduced sensitivity to red light (reds may appear darker)
+- Cannot reliably distinguish red and green
 **Problematic combinations:**
 - Red / Green 🟥🟩
-- Red / Black/Grey 🟥⬛
+- Red / Black/Grey 🟥⬛ (due to low brightness contrast)
 
-**Tritanopia** 🩵🩷 (blue-yellow blind): Sees pinks and blues differently
-Difficulty distinguishing blue and yellow; sees pinks and other colours differently
+**Tritanopia** 🩵🩷 (blue-yellow blind, rare)
+- Difficulty distinguishing blue vs green and yellow vs violet
 **Problematic combinations:**
+- Blue / Green 🟦🟩
 - Blue / Grey 🟦⬛
 - Blue / Purple 🟦🟪
 
-**Achromatopsia** ⬛⬜ (monochrome)
-Sees only greyscale; affects ~1 in 12 men
-**Problematic combinations:**
-Any colour-only differences; rely on patterns, shapes, and labels instead
+**Achromatopsia** ⬛⬜ (monochrome, very rare)
+Sees only greyscale (no colour perception)
+Problematic combinations:
+- Any colour-only differences
+- Must rely on contrast, patterns, shapes, and labels
 
 **Tools**: Use simulators or plugins to preview designs under different CVD conditions
 
