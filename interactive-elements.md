@@ -3,6 +3,15 @@ Interactive Elements & Signifiers (UX Design Notes)
 
 Interactive elements are components in a design that allow users to take action.
 
+Examples of Interactive Elements
+Buttons
+Links
+Checkboxes
+Sliders
+Cards
+Menus
+Breadcrumbs
+
 Key Characteristics
 Action triggers: Initiate user interaction (e.g., buttons, links)
 Perceived as interactive: Must clearly communicate they can be used
