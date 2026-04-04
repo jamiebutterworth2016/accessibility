@@ -16,8 +16,6 @@ Supports: Click, Tap, Pinch, Long press, Gestures.
 - Spacing – prevents accidental interaction
 - Location – placed where users expect
 
-<hr>
-
 ## Signifiers 🛜
 - Signal the element is interactive
 - How to interact with it
