@@ -83,14 +83,11 @@ Users read first 1–2 words.
 - Buttons → verbs: Save, Publish, Download
 - Links → verbs or nouns: View samples, SEO hacks
 
-**Avoid**
+**Avoid words which increase cognitive load and reduce accessibility**
 - Click here
 - Read more
 - Learn more
 - Naked URLs
-<br>👉 These:
-- Increase cognitive load
-- Reduce accessibility
 
 <hr>
 
