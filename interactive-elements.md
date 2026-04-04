@@ -23,16 +23,24 @@ Components that allow users to take action.
 
 <hr>
 
-2. Signifiers
-
-Signifiers indicate how an element should be used.
-
-Definition
+## Signifiers
 Signals that communicate:
-What an element does
-How it should be interacted with
-Goal: Make interactivity obvious
-Types of Signals
+- What an element does
+- How it should be interacted with
+👉 Goal: Make interactivity obvious
+
+**Types of Signifiers**
+- Visual - colour, shape, icons, underline
+- Auditory - screen reader output, sounds
+- Physical - touch, vibration, device movement
+
+**Strong Signifiers**
+Clearly indicate
+- "This is interactive"
+- "This is what will happen"
+
+<hr>
+
 Styling (colour, shape, contrast)
 Wording (labels like “Submit”, “Next”)
 Animation (hover effects, transitions)
