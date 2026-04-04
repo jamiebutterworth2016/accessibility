@@ -63,13 +63,13 @@ Response after interaction: Visual, Sound, Vibration
 **Text must be:** clear, concise, descriptive, action-oriented.
 
 **Front-Load Keywords**
-Users read first 1–2 words.
+Users only read first 1–2 words.
 
 **Use Verbs & Key Nouns**
 - Buttons → verbs: Save, Publish, Download
 - Links → verbs or nouns: View samples, SEO hacks
 
-**❌ Avoid words which increase cognitive load and reduce accessibility**
+**❌ Avoid words which increase cognitive load**
 - Click here
 - Read more
 - Learn more
