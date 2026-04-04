@@ -457,3 +457,121 @@ Read usability studies to:
 Understand user behaviour
 Apply evidence-based design
 
+
+Link & Button Wording Best Practices (UX Notes)
+1. Core Principle
+
+Link and button text should be:
+
+Clear
+Concise
+Descriptive
+Action-oriented
+
+👉 Applies to both:
+
+Links
+Buttons (action triggers)
+2. Front-Load Key Words
+Why
+Users scan content and often read only the first 1–2 words
+Improves:
+Findability
+Discoverability
+Accessibility
+How to Front-Load
+A. Lead with Action Verbs
+❌ “Learn how professional bakers bake cakes”
+✅ “Bake cakes like the pros”
+❌ “Click here to subscribe to our blog and get more UX tips”
+✅ “Subscribe for UX tips”
+❌ “To learn more about our work and view samples from past work”
+✅ “View samples from past work”
+B. Lead with Key Nouns
+❌ “Read more SEO hacks for the new year”
+✅ “SEO hacks for new year”
+3. Be Transparent (Links = Promises)
+Key Idea
+A link is a promise
+The destination must match the expectation
+Guidelines
+Be clear about:
+Transport (where it goes)
+Trigger (what it does)
+Examples
+❌ “Learn more”
+✅ “Jean sizing chart”
+4. Identify the Link’s Purpose
+Ask
+Does the link:
+Make sense out of context?
+Clearly describe the destination?
+Best Practice
+Link text should:
+Be informative
+Be specific
+“Pull its own weight”
+5. Use Unique Link Text
+Each unique destination should have:
+Unique link wording
+Why
+Avoids confusion
+Improves:
+Accessibility (e.g., Links List)
+SEO
+6. Avoid Poor Practices
+Avoid
+❌ Vague wording:
+“Click here”
+“Read more”
+“Learn more”
+❌ Naked URLs:
+https://example.com
+❌ Ambiguous or generic text
+7. Indicating Link Behaviour
+External Links
+Use an external link icon
+Place icon after the text
+File Downloads
+Include file type:
+“Report (PDF)”
+“Download guide (DOCX)”
+8. Buttons & Action Triggers
+Best Practices
+Use:
+Action words (verbs)
+Task-specific wording
+Examples
+❌ Yes / No
+✅ Save / Discard
+❌ Submit
+✅ Publish / Send message
+9. Signifiers & Interactivity
+Interactive Elements Should
+Be clearly perceived as interactive
+Have:
+Strong signifiers
+Clear physical presentation
+Signifiers
+Clearly signal:
+The element is interactive
+What will happen when used
+Good Signifiers Include
+Styling (colour, underline)
+Wording (clear action)
+Placement
+Size
+10. Writing for Accessibility
+Key Guidelines
+Use:
+Concise wording
+Clear language
+Avoid:
+Ambiguity
+Unnecessary words
+Why
+Supports:
+Screen readers
+Faster scanning
+Lower cognitive load
+
