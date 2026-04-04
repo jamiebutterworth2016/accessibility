@@ -1,7 +1,6 @@
 # 1. Interactive Elements & Signifiers
 
 ## Interactive Elements
-
 Components that allow users to take action.
 - Buttons, Links
 - Checkboxes, Radio buttons
@@ -36,6 +35,67 @@ Signals that communicate:
 Clearly indicate
 - "This is interactive"
 - "This is what will happen"
+
+<hr>
+
+# 2. Usability, Discoverability & Feedback
+**Usability Testing**
+- Evaluates how easy a design is to use
+- Includes accessibility testing
+- Involves people with disabilities and diverse participants
+
+**Discoverability**
+Can users figure out how something works?
+
+**Feedback**
+What happens after interaction:
+- Visual (highlight)
+- Sound
+- Vibration
+
+**Norman Door (Usability Failure)**
+- From Don Norman
+- Design that causes the wrong action
+👉 If instructions (“Push/Pull”) are needed → bad design
+
+**Usability Experts**
+- Jakob Nielsen
+- Nielsen Norman Group, Founded 1998, Research-based UX
+
+**Core Design Areas**
+- Wording
+- Styling
+- Interactive states
+
+<hr>
+
+# 3. Link & Button Wording
+**Text must be:**
+- Clear
+- Concise
+- Descriptive
+- Action-oriented
+
+**Front-Load Keywords**
+Users read first 1–2 words only
+
+- ❌ “Click here to subscribe…”
+- ✅ “Subscribe for UX tips”
+- ❌ “Learn how bakers bake cakes”
+- ✅ “Bake cakes like the pros”
+
+**Use Verbs or Key Nouns**
+- Buttons → action verbs: Save, Publish, Download
+- Links → verbs or strong nouns: “View samples”, “SEO hacks for 2026”
+
+Avoid ❌
+- “Click here”
+- “Read more”
+- “Learn more”
+- Naked URLs
+👉 These:
+- Increase cognitive load
+- Reduce accessibility
 
 <hr>
 
