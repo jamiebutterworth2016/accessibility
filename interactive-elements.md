@@ -339,3 +339,8 @@ Supports fast scanning
 Sighted users → scan with eyes
 Blind users → scan with screen readers
 Search engines → scan page structure and keywords
+
+
+
+<img width="601" height="398" alt="image" src="https://github.com/user-attachments/assets/1a4e1654-dd63-495f-a8df-f3ba34e9fbd1" />
+
