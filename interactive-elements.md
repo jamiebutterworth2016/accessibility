@@ -1,5 +1,9 @@
 # 1. Interactive Elements & Signifiers
 
+👉 Interactive elements and signifiers work together:
+Interactive elements = what users act on
+Signifiers = how users understand those actions
+
 ## Interactive Elements
 Components that allow users to take action.
 - Buttons, Links
@@ -7,34 +11,34 @@ Components that allow users to take action.
 - Sliders, Carousels
 - Cards / Tiles
 - Menus, Breadcrumbs
+- Dropdowns, Progress trackers, Drop zones
 
-**Key Characteristics**
-- Action triggers (initiate interaction)
-- Must be perceived as interactive
-- Support actions: Click, Tap, Pinch, Long press, Gestures
+**Interactive elements should:**
+- Act as action triggers (initiate interaction)
+- Be clearly perceived as interactive
+- Support user actions: Click, Tap, Pinch, Long press, Gestures
 
-**Physical Presentation**
-- Size – easy to interact with
-- Spacing – prevents mistakes
-- Location – placed where expected
+**Design must support easy interaction:**
+- Size – large enough to use comfortably
+- Spacing – prevents accidental interaction
+- Location – placed where users expect
 
 <hr>
 
 ## Signifiers
-Signals that communicate:
-- What an element does
+- Signals the element is interactive
 - How it should be interacted with
-👉 Goal: Make interactivity obvious
+- What will happen when it is used
 
-**Types of Signifiers**
-- Visual - colour, shape, icons, underline
+👉 All interactive elements must have strong signifiers.
+Without strong signifiers, users may not recognise interactivity, leading to confusion, missed actions and reduced usability and accessibility
+
+**Types**
+- Visual - colour, shape, underline, icons
 - Auditory - screen reader output, sounds
-- Physical - touch, vibration, device movement
+- Physical - touch, vibration, movement
 
-**Strong Signifiers**
-Clearly indicate
-- "This is interactive"
-- "This is what will happen"
+👍 A blue, underlined word signals a clickable link.
 
 <hr>
 
