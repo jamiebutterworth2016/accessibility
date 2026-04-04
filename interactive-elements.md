@@ -31,35 +31,7 @@ Example: A blue, underlined word signals a clickable link.
 
 <hr>
 
-# 2. Usability, Discoverability & Feedback
-**Usability Testing**
-- Evaluates ease of use
-- Includes accessibility testing
-- Involves diverse users, including disabilities
-
-**Discoverability**
-Can users figure out how it works?
-
-**Feedback**
-Response after interaction: Visual, Sound, Vibration
-
-**Norman Door**
-- From Don Norman
-- Design that causes the wrong action
-- If instructions (“Push/Pull”) are needed → bad design
-
-**UX Experts**
-- Jakob Nielsen
-- Nielsen Norman Group (1998)
-
-**Core Design Areas**
-- Wording
-- Styling
-- Interactive states
-
-<hr>
-
-# 3. Link & Button Wording
+# 2. Link & Button Wording
 **Text must be:** clear, concise, descriptive, action-oriented.
 
 **Front-Load Keywords**
