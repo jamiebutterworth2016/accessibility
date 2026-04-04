@@ -344,3 +344,114 @@ Search engines → scan page structure and keywords
 
 <img width="601" height="398" alt="image" src="https://github.com/user-attachments/assets/1a4e1654-dd63-495f-a8df-f3ba34e9fbd1" />
 
+
+Link Text, Scanning & Accessibility (UX Notes)
+1. Writing Effective Link Text
+Key Principles
+Link text should be:
+Informative
+Descriptive
+Specific
+Written in plain language
+Front-Loading
+Put the most important words first
+Users typically:
+Read only the first 1–2 words when scanning
+Why This Matters
+Improves:
+Findability
+Discoverability
+Accessibility
+2. User Scanning Behaviour
+F-Pattern Scanning
+Users scan pages in an F-shaped pattern:
+Read top-left content first
+Scan across (horizontal)
+Then scan down the left side
+Behaviour Patterns
+First few items:
+Read more carefully
+Lower content:
+Scanned more quickly
+3. Information Foraging
+Users look for cues to find relevant information quickly
+They rely on:
+Links
+Headings
+Lists
+Implication
+Link text must:
+Be clear at a glance
+Stand out during scanning
+4. Links as Promises
+Core Idea
+A link is a promise to the user
+Best Practices
+Be transparent
+Ensure:
+Link text matches the destination page
+The destination fulfils expectations
+Guidelines
+Link text should:
+Not require surrounding context
+“Pull its own weight”
+Be unique for each destination
+5. Accessibility & Screen Readers
+How Screen Readers Interpret Links
+Example announcement:
+“How to bake a cake, heading level 3, link”
+Why This Matters
+Users understand:
+It’s a heading
+It’s also interactive
+Key Rule
+Link text must make sense:
+In isolation (e.g., Links List)
+When read aloud
+6. Headings as Links (Best Practice)
+Recommended HTML Pattern
+<h3>
+  <a href="/article">How to Bake a Cake</a>
+</h3>
+Benefits
+Improves:
+Discoverability
+Accessibility
+SEO
+Works well with:
+Screen readers
+Scanning behaviour
+7. Avoid “Read More” Links
+Problems
+Too vague
+Not meaningful in isolation
+Fails in:
+Links List
+Scanning
+Better Approaches
+✅ Hyperlink the article title
+OR
+✅ Replace with descriptive text:
+“Read more about cake baking techniques”
+8. Improving UX with Link Text
+Good Link Text Should
+Be:
+Clear
+Concise
+Descriptive
+Start with key information
+Match user expectations
+Avoid
+Vague wording
+Repeated identical links to different pages
+Reliance on surrounding text
+9. Testing & Research
+Usability Testing
+Test with real users to:
+Identify confusion
+Improve clarity
+Research
+Read usability studies to:
+Understand user behaviour
+Apply evidence-based design
+
