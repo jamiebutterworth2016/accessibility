@@ -59,7 +59,7 @@ Response after interaction: Visual, Sound, Vibration
 **Norman Door**
 - From Don Norman
 - Design that causes the wrong action
-👉 If instructions (“Push/Pull”) are needed → bad design
+- If instructions (“Push/Pull”) are needed → bad design
 
 **UX Experts**
 - Jakob Nielsen
@@ -82,7 +82,7 @@ Users read first 1–2 words.
 - Buttons → verbs: Save, Publish, Download
 - Links → verbs or nouns: View samples, SEO hacks
 
-**Avoid words which increase cognitive load and reduce accessibility**
+**❌ Avoid words which increase cognitive load and reduce accessibility**
 - Click here
 - Read more
 - Learn more
