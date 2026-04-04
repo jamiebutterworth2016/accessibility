@@ -1,11 +1,10 @@
 # 1. Interactive Elements & Signifiers
 
 👉 Interactive elements and signifiers work together:
-Interactive elements = what users act on
-Signifiers = how users understand those actions
+- Interactive elements = what users act on
+- Signifiers = how users understand those actions
 
 ## Interactive Elements
-Components that allow users to take action.
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
@@ -28,9 +27,9 @@ Components that allow users to take action.
 ## Signifiers
 - Signals the element is interactive
 - How it should be interacted with
-- What will happen when it is used
+- What will happen when it is interacted with
 
-👉 All interactive elements must have strong signifiers.
+👉 Interactive elements must have strong signifiers.
 Without strong signifiers, users may not recognise interactivity, leading to confusion, missed actions and reduced usability and accessibility
 
 **Types**
@@ -74,19 +73,14 @@ What happens after interaction:
 <hr>
 
 # 3. Link & Button Wording
-**Text must be:**
-- Clear
-- Concise
-- Descriptive
-- Action-oriented
+**Text must be:** clear, concise, descriptive, action-oriented.
 
 **Front-Load Keywords**
-Users read first 1–2 words only
+Users only read first 1–2 words.
 
-- ❌ “Click here to subscribe…”
-- ✅ “Subscribe for UX tips”
-- ❌ “Learn how bakers bake cakes”
-- ✅ “Bake cakes like the pros”
+Improved examples:
+- “Click here to subscribe…” ❌ -> “Subscribe for UX tips” ✅
+- “Learn how bakers bake cakes” ❌ -> “Bake cakes like the pros” ✅
 
 **Use Verbs or Key Nouns**
 - Buttons → action verbs: Save, Publish, Download
