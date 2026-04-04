@@ -224,3 +224,118 @@ Avoid vague or non-specific text:
 ❌ Naked URLs
 Do not rely on surrounding text
 Link text must stand on its own
+
+
+Link Wording, Usability & Accessibility (UX Notes)
+1. Importance of Link Wording
+Key Principle
+Link text must be:
+Clear
+Specific
+Descriptive
+Avoid
+Non-specific / vague / ambiguous wording:
+“Read more”
+“Learn more”
+“Click here”
+“Here”
+“Details”
+Why This Matters
+Poor link wording:
+Negatively affects usability
+Decreases accessibility
+Increases cognitive load
+Slows users down
+2. User Behaviour
+Scanning Behaviour
+Users only read ~20% of page content
+Instead, they scan for relevant information
+Information Foraging
+The process of:
+Searching for useful information on a page
+Users rely on:
+Links
+Buttons
+Headings
+Impact of Poor Link Text
+Vague wording:
+Hides the purpose of the link
+Forces users to read surrounding text
+Makes scanning inefficient
+3. Accessibility & Assistive Technology (AT)
+Assistive Technologies
+Used by people with disabilities
+Example:
+Screen readers
+How Screen Readers Work with Links
+Provide a Links List:
+Lists all links on a page in one place
+Allows quick navigation
+Problem with Vague Links
+Example:
+“Read more link”
+When listed alone:
+Becomes meaningless
+Makes navigation unusable
+4. Screen Reader Navigation Features
+
+Screen readers allow users to scan pages efficiently using:
+
+Links List → all links
+Headings List → all headings
+Buttons List → all buttons
+Form Fields List → all inputs
+Key Insight
+Blind users scan using structure
+Sighted users scan visually
+
+Both:
+
+Scan content
+But in different ways
+5. Cognitive Load
+Definition
+The mental effort required to process information
+Effect of Vague Links
+Increases cognitive load
+Forces users to:
+Stop scanning
+Read more content
+Work harder to understand
+6. SEO (Search Engine Optimisation)
+How Link Wording Helps SEO
+Search engines analyse:
+Links
+Headings
+Keywords
+Benefits of Clear Links
+Strong, descriptive link text:
+Improves search rankings
+Provides clearer context
+7. Why “Click Here” is Bad
+Problems
+Assumes user has a mouse/device to click
+Not inclusive of:
+Keyboard users
+Screen reader users
+Undermines user intelligence
+Adds unnecessary instruction
+Better Approach
+Use meaningful, action-based wording instead
+8. Visual Understanding of Links
+Sighted users rely on:
+Underline
+Bold styling
+These act as visual signifiers
+Users already recognise these as links
+9. Key UX Insight
+Vague link text:
+Conceals the action
+Requires extra effort to understand
+Clear link text:
+Reveals purpose instantly
+Supports fast scanning
+10. How Different Systems Scan Content
+Sighted users → scan with eyes
+Blind users → scan with screen readers
+Search engines → scan page structure and keywords
