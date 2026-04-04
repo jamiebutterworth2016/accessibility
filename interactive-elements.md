@@ -3,8 +3,6 @@
 ## Interactive Elements
 
 Components that allow users to take action.
-
-**Examples**
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
