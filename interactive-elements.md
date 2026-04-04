@@ -88,7 +88,7 @@ Users read first 1–2 words.
 - Read more
 - Learn more
 - Naked URLs
-👉 These:
+<br>👉 These:
 - Increase cognitive load
 - Reduce accessibility
 
