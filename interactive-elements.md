@@ -21,7 +21,7 @@ Supports: Click, Tap, Pinch, Long press, Gestures.
 - How to interact with it
 - What will happen on interaction
 
-👉 All interactive elements must have strong signifiers to improve usability and accessibility.
+👉 Strong signifiers improve usability and accessibility.
 Example: A blue, underlined word signals a clickable link.
 
 **Types**
