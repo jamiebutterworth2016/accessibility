@@ -17,11 +17,11 @@ Supports: Click, Tap, Pinch, Long press, Gestures.
 - Location – placed where users expect
 
 ## Signifiers 🛜
-- Signal the element is interactive
+- Signals the element is interactive
 - How to interact with it
 - What will happen on interaction
 
-👉 Improves usability and accessibility.
+✅ Improves usability and accessibility.
 Example: A blue, underlined word signals a clickable link.
 
 **Types**
