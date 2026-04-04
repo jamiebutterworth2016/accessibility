@@ -76,24 +76,21 @@ What happens after interaction:
 **Text must be:** clear, concise, descriptive, action-oriented.
 
 **Front-Load Keywords**
-Users only read first 1–2 words.
-
-Improved examples:
-- “Click here to subscribe…” ❌ -> “Subscribe for UX tips” ✅
-- “Learn how bakers bake cakes” ❌ -> “Bake cakes like the pros” ✅
+Users only read first 1–2 words so place most important words at the front.
 
 **Use Verbs or Key Nouns**
 - Buttons → action verbs: Save, Publish, Download
 - Links → verbs or strong nouns: “View samples”, “SEO hacks for 2026”
 
-Avoid ❌
+**Examples**
+- “Click here to subscribe…” ❌ -> “Subscribe for UX tips” ✅
+- “Learn how bakers bake cakes” ❌ -> “Bake cakes like the pros” ✅
+
+Avoid bad wording to improve accessibiltiy and reduce cognitive load:
 - “Click here”
 - “Read more”
 - “Learn more”
 - Naked URLs
-👉 These:
-- Increase cognitive load
-- Reduce accessibility
 
 <hr>
 
