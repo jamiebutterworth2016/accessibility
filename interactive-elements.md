@@ -410,9 +410,11 @@ In isolation (e.g., Links List)
 When read aloud
 6. Headings as Links (Best Practice)
 Recommended HTML Pattern
+```
 <h3>
   <a href="/article">How to Bake a Cake</a>
 </h3>
+```
 Benefits
 Improves:
 Discoverability
