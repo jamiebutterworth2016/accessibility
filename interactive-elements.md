@@ -8,9 +8,8 @@
 - Menus, Breadcrumbs
 - Dropdowns, Progress trackers, Drop zones
 
-**Interactive elements should:**
-- Act as action triggers
-- Support: Click, Tap, Pinch, Long press, Gestures
+Triggers an action.
+Supports: Click, Tap, Pinch, Long press, Gestures.
 
 **Design must support easy interaction:**
 - Size – large enough to use comfortably
