@@ -14,7 +14,6 @@
 
 **Interactive elements should:**
 - Act as action triggers
-- Be clearly perceived as interactive
 - Support: Click, Tap, Pinch, Long press, Gestures
 
 **Design must support easy interaction:**
