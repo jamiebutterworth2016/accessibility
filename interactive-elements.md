@@ -1,10 +1,6 @@
 # 1. Interactive Elements & Signifiers
 
-👉 Interactive elements and signifiers work together:
-- Interactive elements = what users act on
-- Signifiers = how users understand those actions
-
-## Interactive Elements
+## Interactive Elements ▶️
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
@@ -23,24 +19,18 @@
 
 <hr>
 
-## Signifiers
-Signals that communicate:
-- The element is interactive
+## Signifiers 🛜
+- Signal the element is interactive
 - How to interact with it
-- What will happen
+- What will happen on interaction
 
-👉 All interactive elements must have strong signifiers
+👉 All interactive elements must have strong signifiers to improve usability and accessibility.
 Example: A blue, underlined word signals a clickable link.
 
 **Types**
 - Visual - colour, shape, underline, icons 👀
 - Auditory - screen reader output, sounds 🔊
 - Physical - touch, vibration, movement ✋
-
-**Impact of weak signifiers**
-- Users may not recognise interactivity
-- Actions may be missed or misunderstood
-- Reduces usability and accessibility
 
 <hr>
 
