@@ -1,33 +1,28 @@
-Interactive Elements & Signifiers (UX Design Notes)
-1. Interactive Elements
+# 1. Interactive Elements & Signifiers
 
-Interactive elements are components in a design that allow users to take action.
+## Interactive Elements
 
-Examples of Interactive Elements
-Buttons
-Links
-Checkboxes
-Sliders
-Cards
-Menus
-Breadcrumbs
+Components that allow users to take action.
 
-Key Characteristics
-Action triggers: Initiate user interaction (e.g., buttons, links)
-Perceived as interactive: Must clearly communicate they can be used
-User actions:
-Click
-Tap
-Pinch
-Long press
-Gesture (e.g., wave)
-Physical Presentation
+**Examples**
+- Buttons, Links
+- Checkboxes, Radio buttons
+- Sliders, Carousels
+- Cards / Tiles
+- Menus, Breadcrumbs
 
-How an element is physically designed affects usability:
+**Key Characteristics**
+- Action triggers (initiate interaction)
+- Must be perceived as interactive
+- Support actions: Click, Tap, Pinch, Long press, Gestures
 
-Size – large enough to interact with easily
-Spacing – prevents accidental taps/clicks
-Location – placed where users expect it
+**Physical Presentation**
+- Size – easy to interact with
+- Spacing – prevents mistakes
+- Location – placed where expected
+
+<hr>
+
 2. Signifiers
 
 Signifiers indicate how an element should be used.
