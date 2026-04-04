@@ -13,9 +13,9 @@
 - Dropdowns, Progress trackers, Drop zones
 
 **Interactive elements should:**
-- Act as action triggers (initiate interaction)
+- Act as action triggers
 - Be clearly perceived as interactive
-- Support user actions: Click, Tap, Pinch, Long press, Gestures
+- Support: Click, Tap, Pinch, Long press, Gestures
 
 **Design must support easy interaction:**
 - Size – large enough to use comfortably
@@ -25,45 +25,46 @@
 <hr>
 
 ## Signifiers
-- Signals the element is interactive
-- How it should be interacted with
-- What will happen when it is interacted with
+Signals that communicate:
+- The element is interactive
+- How to interact with it
+- What will happen
 
-👉 Interactive elements must have strong signifiers.
-Without strong signifiers, users may not recognise interactivity, leading to confusion, missed actions and reduced usability and accessibility
+👉 All interactive elements must have strong signifiers
+Example: A blue, underlined word signals a clickable link.
 
 **Types**
-- Visual - colour, shape, underline, icons
-- Auditory - screen reader output, sounds
-- Physical - touch, vibration, movement
+- Visual - colour, shape, underline, icons 👀
+- Auditory - screen reader output, sounds 🔊
+- Physical - touch, vibration, movement ✋
 
-👍 A blue, underlined word signals a clickable link.
+**Impact of weak signifiers**
+- Users may not recognise interactivity
+- Actions may be missed or misunderstood
+- Reduces usability and accessibility
 
 <hr>
 
 # 2. Usability, Discoverability & Feedback
 **Usability Testing**
-- Evaluates how easy a design is to use
+- Evaluates ease of use
 - Includes accessibility testing
-- Involves people with disabilities and diverse participants
+- Involves diverse users, including disabilities
 
 **Discoverability**
-Can users figure out how something works?
+Can users figure out how it works?
 
 **Feedback**
-What happens after interaction:
-- Visual (highlight)
-- Sound
-- Vibration
+Response after interaction: Visual, Sound, Vibration
 
-**Norman Door (Usability Failure)**
+**Norman Door**
 - From Don Norman
 - Design that causes the wrong action
 👉 If instructions (“Push/Pull”) are needed → bad design
 
-**Usability Experts**
+**UX Experts**
 - Jakob Nielsen
-- Nielsen Norman Group, Founded 1998, Research-based UX
+- Nielsen Norman Group (1998)
 
 **Core Design Areas**
 - Wording
@@ -76,28 +77,27 @@ What happens after interaction:
 **Text must be:** clear, concise, descriptive, action-oriented.
 
 **Front-Load Keywords**
-Users only read first 1–2 words so place most important words at the front.
+Users read first 1–2 words.
 
-**Use Verbs or Key Nouns**
-- Buttons → action verbs: Save, Publish, Download
-- Links → verbs or strong nouns: “View samples”, “SEO hacks for 2026”
+**Use Verbs & Key Nouns**
+- Buttons → verbs: Save, Publish, Download
+- Links → verbs or nouns: View samples, SEO hacks
 
-**Examples**
-- “Click here to subscribe…” ❌ -> “Subscribe for UX tips” ✅
-- “Learn how bakers bake cakes” ❌ -> “Bake cakes like the pros” ✅
-
-Avoid bad wording to improve accessibiltiy and reduce cognitive load:
-- “Click here”
-- “Read more”
-- “Learn more”
+**Avoid**
+- Click here
+- Read more
+- Learn more
 - Naked URLs
+👉 These:
+- Increase cognitive load
+- Reduce accessibility
 
 <hr>
 
 # 4. Scanning, Accessibility & Behaviour
 
 **User Behaviour**
-- Users read only ~20% of content
+- Users typically read only ~20-28% of content
 - Scan in an F-pattern: Top-left → across → down
 
 **Information Foraging**
