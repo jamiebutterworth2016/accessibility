@@ -99,6 +99,37 @@ Avoid ❌
 
 <hr>
 
+# 4. Scanning, Accessibility & Behaviour
+
+**User Behaviour**
+- Users read only ~20% of content
+- Scan in an F-pattern: Top-left → across → down
+
+**Information Foraging**
+Users search for meaning using:
+- Links
+- Headings
+- Buttons
+👉 Link text must stand out and be clear instantly
+
+**Accessibility & Screen Readers**
+Screen readers navigate pages using:
+- Links List
+- Headings List
+- Buttons List
+- Form Fields List
+
+**Key Insight**
+- Sighted users → scan visually
+- Blind users → scan structurally
+👉 Link text must work in isolation
+
+Vague links add cognitive load: require extra reading and slow users down.
+
+<hr>
+
+
+
 Styling (colour, shape, contrast)
 Wording (labels like “Submit”, “Next”)
 Animation (hover effects, transitions)
