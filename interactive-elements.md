@@ -128,7 +128,46 @@ Vague links add cognitive load: require extra reading and slow users down.
 
 <hr>
 
+# 5. Advanced Link Design & Best Practices
+**Links = Promises**
+- Must match destination
+- Must be transparent
 
+**Good Link Text Should**
+- Be:
+Specific
+Informative
+Unique
+- Not rely on context
+- “Pull its own weight”
+
+**Headings as Links (Best Practice)**
+This is an alternative to using unhelpful "Read more" links.
+```
+<h3>
+  <a href="/article">How to Bake a Cake</a>
+</h3>
+```
+✔ Improves:
+- Accessibility
+- SEO
+- Discoverability
+
+**Replace “Read More” with:**
+- Article title as link
+- Or descriptive text
+
+**Indicating Link Behaviour**
+- External link → icon after text
+- File download → include type: “Report (PDF)”
+
+**SEO Benefits**
+Search engines scan:
+- Links
+- Headings
+Clear wording → better SEO ranking
+
+<hr>
 
 Styling (colour, shape, contrast)
 Wording (labels like “Submit”, “Next”)
