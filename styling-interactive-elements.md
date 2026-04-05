@@ -90,6 +90,8 @@
 
 
 ## 3. Consistency vs Similarity vs Distinctness
+- Aim for consistency.
+- Only sacrifice consistency to improve the UX.
 
 <img width="653" height="251" alt="image" src="https://github.com/user-attachments/assets/dfad0caf-97d8-463b-8c8b-f1eb5923dd0d" />
 
