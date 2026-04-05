@@ -26,7 +26,7 @@ Links are activated with: Enter only
 
 👉 Using the wrong element creates problems for keyboard users
 
-Use a LINK when:
+**Use a LINK when:**
 - Navigating between pages
 - Scrolling to a section on the page
 - Changing the URL
@@ -34,7 +34,7 @@ Use a LINK when:
 - The action does not change data
 - The action is less prominent
 
-Use a BUTTON when:
+**Use a BUTTON when:**
 - Performing an action: Submit, Save, Create, Upload, Sign up / Sign in
 - Changing frontend or backend state
 - Triggering JavaScript: Date picker, Modal, Tabs, Show/hide content, Play media
@@ -47,9 +47,7 @@ Use a BUTTON when:
 
 ## 3. Button Signifiers & Consistency
 
-👉 Buttons should use consistent signifiers
-- Same style = same meaning
-- Helps users recognise patterns quickly
+👉 Buttons should use consistent signifiers to helps users recognise patterns quickly
 
 <img width="1243" height="196" alt="image" src="https://github.com/user-attachments/assets/576a0edd-32b6-40cd-bceb-04454f625979" />
 
