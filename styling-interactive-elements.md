@@ -128,18 +128,16 @@ Or reserve a chosen coour for links.
 
 # Interactive States
 
-A state is how an interactive element changes based on:
+Interactive states describe how an element changes appearance or behaviour based on:
 - User interaction (hover, click, focus)
 - System status (loading, error)
 
 👉 States do not change the element itself, only how it behaves or appears
 
-- Design all states, not just default/hover
-- Plan states early and together
-- Every interactive element needs states
-- All states must be: Accessible, Consistent, Clear (strong signifiers)
-
-👉 Interactive states communicate system status and user interaction, and must be designed consistently and accessibly across all elements using clear, perceivable signifiers.
+**Interactive states communicate:**
+- What the system is doing
+- What the user is doing
+- What can be done next
 
 <hr>
 
@@ -151,7 +149,7 @@ A state is how an interactive element changes based on:
 - Cards / Tiles
 - Toggles, Checkboxes, Radio buttons
 - Dropdowns (incl. multi-select)
-- Icons (e.g. favourite, rating stars)
+- Icons (favourites, ratings)
 - Lists (emails, tables)
 - Accordions
 - Forms & inputs
@@ -163,103 +161,148 @@ A state is how an interactive element changes based on:
 👉 Not every element uses all states, but these are the core set
 
 - Default / Enabled
-- Focus (keyboard navigation)
-- Hover (mouse users)
+- Focus (keyboard users)
+- Hover (mouse users) 👆
 - Pressed / Active
-- Visited (links)
-- Disabled
+- Visited (links) 🔗
+- Disabled 🚫
 - Selected / Toggled
-- Processing (loading)
-- Abort (cancel)
+- Processing (loading) 🔃
+- Abort (cancel) ❌
 - Error (especially forms)
 
 <hr>
 
-## 3. Key Best Practices
+## 3. Designing States (Best Practice)
 
-**Design states early**
-- Plan states together, not later
-- Avoid inconsistencies (e.g. reusing same style for different states)
+**Design Early**
+- Plan states with the component, not after
+- Avoid inconsistent behaviour across components
 
-**Use placeholders**
-- Add state placeholders in your design system
-- Only fully design states once element is confirmed
-
-**Work in both places**
-- In context (on page) → ensures it fits UI
+**Work in Two Contexts**
+- In UI screens → ensures it works in context
 - In design system → ensures consistency
 
 👉 Move between both
 
-**Designer responsibility**
-- Don’t leave states to developers
-- Collaborate, but you define the design
+**Use Placeholders**
+- Add state placeholders early
+- Fully design only when component is confirmed
+
+**Ownership**
+👉 Designers define states — not developers
+Collaboration is key, but design responsibility stays with designers
 
 <hr>
 
 ## 4. Accessibility: 6 Key Questions
-Use these to evaluate any state or UI element:
+Use this checklist for every state:
 1. What is the state?
-2. Is it essential? If removed → does it break usability/accessibility?
+2. Is it essential? (If removed, does usability break?)
 3. Is it contrast compliant?
-4. Is it colour independent? Not relying on colour alone
-5. Is it noticeable enough? Clear visual difference
+4. Is it colour independent?
+5. Is it noticeable enough?
 6. Does it use clear signifiers?
 
-👉 Goal: answer YES to all
+👉 Goal: Yes to all
 
 <hr>
 
-## 5. Accessibility Principles (from WCAG)
-
-From World Wide Web Consortium:
-- **POUR Principles:** Perceivable, Operable, Understandable, Robust
-- **Hierarchy: Principles:** → Guidelines → Criteria → Techniques
-
-👉 All states must be accessible and usable
-
-<hr>
-
-## 6. Focus States (Important)
-Focus = keyboard navigation indicator
-
-- Clearly visible
+## 5. Key State Types
+### Focus States 🔍
+- Must be clearly visible
 - High contrast
 - Not colour-only
-- Large/noticeable
+- Large and obvious
 
-👉 Critical for accessibility (keyboard users)
+👉 Essential for keyboard users
 
-<hr>
-
-## 7. Hover States (Important)
-**For usability:**
-- Needed for mouse users
-- Improves discoverability
-
-**For accessibility:**
+### Hover States 👆
+- Improve discoverability
 - Must maintain text contrast (4.5:1)
-- Noticeable
-- Not rely on colour only
+- Should not rely on colour alone
 
-👉 Hover may or may not be “essential” → affects strict WCAG requirements
+👉 Not always “essential”, but very important for usability
 
 <hr>
 
-## 8. Style Guide vs Design System
-**Design System**
-- Full system (UI + code + principles)
-- Living, evolving product
+## 6. Accessibility Foundations (Expanded)
+### A. POUR Principles (from WCAG)
 
-**Style Guide**
-- Part of design system
-- Colours
-- Typography
-- Visual styles
+These come from the World Wide Web Consortium and form the foundation of accessibility.
 
-**Other components**
-- Pattern library
-- Writing guidelines
-- Branding
+**1. Perceivable**
 
-👉 All ensure consistency + scalability
+👉 Users must be able to see or sense the UI
+
+- Text is readable (contrast)
+- States are visible (focus ring, hover change)
+- Not relying on colour alone
+
+👉 If users can’t perceive a state → it doesn’t exist
+
+**2. Operable**
+
+👉 Users must be able to interact with it
+
+- Keyboard navigation works
+- Focus states are visible
+- Click/tap targets are usable
+
+👉 If a user can’t operate it → it’s unusable
+
+**3. Understandable**
+
+👉 Users must be able to understand what’s happening
+
+- Clear error messages
+- Predictable interactions
+- Consistent state behaviour
+
+👉 Confusing states = broken UX
+
+**4. Robust**
+
+👉 Works across:
+
+- Browsers
+- Devices
+- Assistive technologies (screen readers)
+
+Examples:
+- Proper semantic HTML
+- Accessible states (ARIA where needed)
+
+👉 Future-proof and compatible
+
+### B. WCAG Hierarchy (How It’s Structured)
+
+The accessibility guidelines are organised like this:
+
+**1. Principles (Top Level)**
+
+POUR (Perceivable, Operable, Understandable, Robust)
+
+**2. Guidelines**
+
+High-level goals under each principle
+
+Example: “Provide text alternatives for non-text content”
+
+**3. Success Criteria**
+
+👉 These are the actual rules you must meet
+
+- A (basic)
+- AA (standard — most products aim for this)
+- AAA (advanced)
+
+Example: Text contrast must be at least 4.5:1
+
+**4. Techniques**
+
+👉 Practical ways to meet criteria
+
+- Add focus outlines
+- Use semantic HTML
+- Provide labels for inputs
