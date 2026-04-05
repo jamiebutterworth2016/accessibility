@@ -4,11 +4,10 @@
 
 👉 Interactive elements must be styled to look interactive
 
-Users should immediately recognise:
 - “This is clickable”
 - “I can interact with this”
 
-**Why it matters**
+**Benefits**
 - Improves discoverability
 - Reduces confusion
 - Supports accessibility
@@ -49,11 +48,8 @@ Links are activated with: Enter only
 
 ### 1. Shape & Consistency
 Buttons should:
-- Look like buttons
+- Look like buttons, usually rectangular with slightly rounded corners
 - Be consistent across the interface
-
-👉 Common pattern:
-Rectangle with slightly rounded corners
 
 <img width="1315" height="257" alt="image" src="https://github.com/user-attachments/assets/6f72937a-46bf-420b-879c-254379c7b9e9" />
 
@@ -70,11 +66,11 @@ Rectangle with slightly rounded corners
 
 ### 3. Fill & Colour (Hierarchy)
 
-Button hierarcy uses styling (fill, stroke, weight) to show importance - not colour.
+Uses styling (fill, stroke, weight) to show importance - not colour.
 - Primary button - Solid fill
 - Secondary button - Outline / stroke
 - Tertiary button - Borderless / text-only
 
-👉 Button styling improves accessibility (e.g. for colour-blind users)
+👉 Button styling improves accessibility (e.g. for colourblind users)
 
 <img width="566" height="260" alt="image" src="https://github.com/user-attachments/assets/7547ac4a-ec5b-469d-a347-e58819bc6f78" />
