@@ -89,6 +89,11 @@
 <img width="651" height="137" alt="image" src="https://github.com/user-attachments/assets/4fa2889a-c063-45f3-829d-514039d2d74e" />
 
 
+## 3. Consistency vs Similarity vs Distinctness
+
+<img width="653" height="251" alt="image" src="https://github.com/user-attachments/assets/dfad0caf-97d8-463b-8c8b-f1eb5923dd0d" />
+
+
 
 
 
