@@ -48,7 +48,7 @@
 
 ### 3. Fill & Colour (Hierarchy)
 
-Use styling (fill, stroke, weight) to show importance - not colour.
+Use styling to show importance (fill, stroke, weight) - not colour.
 - Primary button - Solid fill
 - Secondary button - Outline / stroke
 - Tertiary button - Borderless / text-only
