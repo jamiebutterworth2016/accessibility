@@ -8,7 +8,7 @@
 
 ## 1. Buttons vs Links
 
-**🔗 Use a LINK when:**
+**🔗 Use LINK when:**
 - Navigating between pages
 - Scrolling to a section on the page
 - Changing the URL
@@ -16,7 +16,7 @@
 - The action does not change data
 - The action is less prominent
 
-**▶️ Use a BUTTON when:**
+**▶️ Use BUTTON when:**
 - Performing an action: Submit, Upload, Sign in
 - Changing frontend or backend state
 - Triggering JavaScript: Date picker, Modal, Tabs, Show/hide content, Play media
