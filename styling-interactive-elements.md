@@ -27,7 +27,7 @@
 
 <hr>
 
-## 2. Button Styling Techniques (7)
+## 2. Button Signifiers (7)
 
 ### 1. Shape & Consistency
 - Buttons are typically rectangular with slightly rounded corners
