@@ -97,6 +97,26 @@
 
 ## 4. Link Signifiers
 
+Be different from non-clickable text.
+Use signifier.
+Underline, not bold.
+Don't use colour as signifier.
+Google's links. Use bold for links and spacing and blue link colour and underline on hover and display naked URL above link.
+Use low hanging underlines.
+Underline styling.
+Blue is classic link colour - but can change colour to match brand.
+Don't need to underline menu items - obviously links.
+Underline links with surrounding text. Embolden standalone links.
+
+Alternatives to underlines.
+Avoid borders - looks too much like a button.
+Luminous links - 3 to 1 constrast ratio with surrounding black unlinked text. For colourblind.
+4.5+ to 1 against white background. For low vision.
+
+Avoid blue text if not a link. Blue text is strongly associated with links.
+
+Or reserve a chosen coour for links.
+
 <img width="605" height="253" alt="image" src="https://github.com/user-attachments/assets/f266e4d2-56b7-4c5f-8d3a-98344450aa17" />
 
 <img width="250" height="357" alt="image" src="https://github.com/user-attachments/assets/35a33308-0774-436f-8c3f-adf240d42f0e" />
