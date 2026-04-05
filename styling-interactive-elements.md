@@ -1,7 +1,5 @@
 # Styling Interactive Elements
 
-## 1. Perceived Interactivity (Styling)
-
 👉 Style interactive elements with signifiers, to look interactive.
 - Improves discoverability
 - Reduces confusion
@@ -9,7 +7,7 @@
 
 <hr>
 
-## 2. Buttons vs Links
+## 1. Buttons vs Links
 
 **🔗 Use a LINK when:**
 - Navigating between pages
@@ -30,7 +28,7 @@
 
 <hr>
 
-## 3. Button Styling Techniques (7)
+## 2. Button Styling Techniques (7)
 
 ### 1. Shape & Consistency
 - Buttons are typically rectangular with slightly rounded corners
