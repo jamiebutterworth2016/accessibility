@@ -1,9 +1,8 @@
 # Styling Interactive Elements
 
 👉 Style interactive elements with signifiers, to look interactive.
-- Improves discoverability
+- Improves discoverability, accessibility
 - Reduces confusion
-- Supports accessibility
 
 <hr>
 
