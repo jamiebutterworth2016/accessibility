@@ -291,17 +291,13 @@ Example: “Provide text alternatives for non-text content”
 
 **3. Success Criteria**
 
-👉 These are the actual rules you must meet
-
 - A (basic)
 - AA (standard — most products aim for this)
 - AAA (advanced)
 
 Example: Text contrast must be at least 4.5:1
 
-**4. Techniques**
-
-👉 Practical ways to meet criteria
+**4. Techniques to meet criteria**
 
 - Add focus outlines
 - Use semantic HTML
