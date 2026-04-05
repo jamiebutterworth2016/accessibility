@@ -15,16 +15,7 @@ Users should immediately recognise:
 
 <hr>
 
-## 2. Buttons vs Links (Choosing the Right Element)
-Use the correct element
-
-👉 Choosing the wrong element reduces usability and accessibility
-
-**Accessibility Difference**
-Buttons are activated with: Enter + Space
-Links are activated with: Enter only
-
-👉 Using the wrong element creates problems for keyboard users
+## 2. Buttons vs Links
 
 **Use a LINK when:**
 - Navigating between pages
@@ -35,13 +26,14 @@ Links are activated with: Enter only
 - The action is less prominent
 
 **Use a BUTTON when:**
-- Performing an action: Submit, Save, Create, Upload, Sign up / Sign in
+- Performing an action: Submit, Upload, Sign in
 - Changing frontend or backend state
 - Triggering JavaScript: Date picker, Modal, Tabs, Show/hide content, Play media
 
-👉 Rule of thumb:
-- Links = navigation
-- Buttons = actions
+👉 Using the wrong element creates problems for keyboard users and reduces usability and accessibility.
+
+Buttons are activated with: Enter + Space
+Links are activated with: Enter only
 
 <hr>
 
