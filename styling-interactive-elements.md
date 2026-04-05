@@ -106,9 +106,140 @@
 <img width="440" height="172" alt="image" src="https://github.com/user-attachments/assets/19c8bf60-44d2-4dfe-a19e-41b95b260ffb" />
 
 
+# Interactive States
 
+A state is how an interactive element changes based on:
+- User interaction (hover, click, focus)
+- System status (loading, error)
 
+👉 States do not change the element itself, only how it behaves or appears
 
+- Design all states, not just default/hover
+- Plan states early and together
+- Every interactive element needs states
+- All states must be: Accessible, Consistent, Clear (strong signifiers)
 
+👉 Interactive states communicate system status and user interaction, and must be designed consistently and accessibly across all elements using clear, perceivable signifiers.
 
+<hr>
 
+## 1. Stateful Elements
+
+👉 If it’s interactive → it needs states
+
+- Buttons, Links
+- Cards / Tiles
+- Toggles, Checkboxes, Radio buttons
+- Dropdowns (incl. multi-select)
+- Icons (e.g. favourite, rating stars)
+- Lists (emails, tables)
+- Accordions
+- Forms & inputs
+
+<hr>
+
+## 2. Fundamental States (10)
+
+👉 Not every element uses all states, but these are the core set
+
+- Default / Enabled
+- Focus (keyboard navigation)
+- Hover (mouse users)
+- Pressed / Active
+- Visited (links)
+- Disabled
+- Selected / Toggled
+- Processing (loading)
+- Abort (cancel)
+- Error (especially forms)
+
+<hr>
+
+## 3. Key Best Practices
+
+**Design states early**
+- Plan states together, not later
+- Avoid inconsistencies (e.g. reusing same style for different states)
+
+**Use placeholders**
+- Add state placeholders in your design system
+- Only fully design states once element is confirmed
+
+**Work in both places**
+- In context (on page) → ensures it fits UI
+- In design system → ensures consistency
+
+👉 Move between both
+
+**Designer responsibility**
+- Don’t leave states to developers
+- Collaborate, but you define the design
+
+<hr>
+
+## 4. Accessibility: 6 Key Questions
+Use these to evaluate any state or UI element:
+1. What is the state?
+2. Is it essential? If removed → does it break usability/accessibility?
+3. Is it contrast compliant?
+4. Is it colour independent? Not relying on colour alone
+5. Is it noticeable enough? Clear visual difference
+6. Does it use clear signifiers?
+
+👉 Goal: answer YES to all
+
+<hr>
+
+## 5. Accessibility Principles (from WCAG)
+
+From World Wide Web Consortium:
+- **POUR Principles:** Perceivable, Operable, Understandable, Robust
+- **Hierarchy: Principles:** → Guidelines → Criteria → Techniques
+
+👉 All states must be accessible and usable
+
+<hr>
+
+## 6. Focus States (Important)
+Focus = keyboard navigation indicator
+
+- Clearly visible
+- High contrast
+- Not colour-only
+- Large/noticeable
+
+👉 Critical for accessibility (keyboard users)
+
+<hr>
+
+## 7. Hover States (Important)
+**For usability:**
+- Needed for mouse users
+- Improves discoverability
+
+**For accessibility:**
+- Must maintain text contrast (4.5:1)
+- Noticeable
+- Not rely on colour only
+
+👉 Hover may or may not be “essential” → affects strict WCAG requirements
+
+<hr>
+
+## 8. Style Guide vs Design System
+**Design System**
+- Full system (UI + code + principles)
+- Living, evolving product
+
+**Style Guide**
+- Part of design system
+- Colours
+- Typography
+- Visual styles
+
+**Other components**
+- Pattern library
+- Writing guidelines
+- Branding
+
+👉 All ensure consistency + scalability
