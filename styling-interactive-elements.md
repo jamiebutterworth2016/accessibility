@@ -3,8 +3,6 @@
 ## 1. Perceived Interactivity (Styling)
 
 👉 Style interactive elements with signifiers, to look interactive.
-
-**Benefits**
 - Improves discoverability
 - Reduces confusion
 - Supports accessibility
