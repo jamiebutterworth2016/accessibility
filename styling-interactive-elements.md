@@ -48,12 +48,10 @@
 
 ### 3. Fill & Colour (Hierarchy)
 
-Use styling to show importance (fill, stroke, weight) - not colour.
+**Use styling to show importance (fill, stroke, weight)** - not colour (for colourblind users).
 - Primary button - Solid fill
 - Secondary button - Outline / stroke
 - Tertiary button - Borderless / text-only
-
-👉 Button styling improves accessibility (e.g. for colourblind users)
 
 <img width="489" height="273" alt="image" src="https://github.com/user-attachments/assets/95e80eeb-a069-4167-aba1-2dd84d6bde63" />
 
