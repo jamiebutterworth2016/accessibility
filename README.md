@@ -30,8 +30,6 @@ CVD = Colour Vision Deficiency (colour blindness)
 | Protanopia - red-blind               |⬛/🟫|🟨/🟩|🟦| Red → Black/Brown                           |
 | Tritanopia - blue-yellow blind (rare)|🟥    |🟩   |🟩| Blue → Green. Yellow🟨 → Grey/Pink⬜🩷     |
 
-<img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
-
 <hr>
 
 ## 3. Visualisation & Maps: Colour-Independent Design
@@ -51,7 +49,7 @@ CVD = Colour Vision Deficiency (colour blindness)
 - Patterns, shapes
 - Ensure usability in greyscale
 
-Rule: Never rely on colour alone to convey information
+<img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
 
 <hr>
 
