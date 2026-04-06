@@ -14,8 +14,8 @@ Decorative or disabled elements are exempt (patterns, logos, non-functional icon
 
 ## B. Colour Independence
 👉 Don't rely on colour to convey information.
-- Use multiple indicators instead: text, icons, shapes, patterns, bold, underlines.
 - Design first (and test) in greyscale ⬛⬜ → Add colour later 🎨
+- Use multiple indicators: text, icons, shapes, patterns, bold, underlines.
 
 <img width="466" height="200" alt="image" src="https://github.com/user-attachments/assets/0ddd9e0e-4e9f-4fde-a348-bc5ded216c88" />
 
