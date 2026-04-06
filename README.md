@@ -64,5 +64,3 @@ Rule: Never rely on colour alone to convey information
 **Key terms**
 - CVD (Colour Vision Deficiency): difficulty distinguishing colours
 - Acuity: clarity of vision
-
-![Untitled](https://github.com/user-attachments/assets/0ec6cfb7-8cb0-46c8-a370-2907b949f12e)
