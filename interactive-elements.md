@@ -1,14 +1,13 @@
 # 1. Interactive Elements & Signifiers ▶️
-👉 Interactive elements triggered by actions (click, tap, pinch, gestures)
-<br>👉 Signifiers signal element is interactive, how to do it and what will happen
 
+👉 Interactive elements triggered by actions (click, tap, pinch, gestures)
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
 - Cards / Tiles, Menus, Dropdowns
 - Breadcrumbs, Progress trackers, Drop zones
 
-**Signifier Types**
+👉 Signifiers signal element is interactive, how to do it and what will happen
 - Visual 👀 → colour (not alone), shape (buttons), underline (links), icons
 - Auditory 🔊 → screen reader output, feedback sounds
 - Physical ✋ → touch, vibration (haptics), device movement
