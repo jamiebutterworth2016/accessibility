@@ -16,7 +16,9 @@ Decorative or disabled elements are exempt (patterns, logos, non-functional icon
 👉 Don't rely on colour to convey information.
 - Design first (and test) in greyscale ⬛⬜ → Add colour later 🎨
 - Use multiple indicators: text, icons, shapes, patterns, bold, underlines.
-- Progress trackers: use multiple cues for state (menus, steps): underlines, bold, icons (ticks ✔), connection lines, bold/underlined current step
+
+**Progress trackers:**
+<br>Use multiple cues for state: underlines, bold, icons (ticks ✔), connection lines, bold/underlined current step
 
 <img width="466" height="200" alt="image" src="https://github.com/user-attachments/assets/0ddd9e0e-4e9f-4fde-a348-bc5ded216c88" />
 
