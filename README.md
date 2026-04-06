@@ -18,6 +18,7 @@ Decorative or disabled elements are exempt (patterns, logos, non-functional icon
 - Use multiple indicators: text, icons, shapes, patterns, bold, underlines.
 
 <img width="466" height="200" alt="image" src="https://github.com/user-attachments/assets/0ddd9e0e-4e9f-4fde-a348-bc5ded216c88" />
+<br>
 
 CVD = Colour Vision Deficiency (colour blindness)
 
@@ -32,8 +33,7 @@ CVD = Colour Vision Deficiency (colour blindness)
 - Highlight current step clearly
 - Progress trackers: tick symbols, lines, bold/underlined current step
 
-<img width="349" height="629" alt="image" src="https://github.com/user-attachments/assets/75c0cbb1-5453-4199-8025-ea1d74d6ac71" />
-
+<img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
 
 <hr>
 
