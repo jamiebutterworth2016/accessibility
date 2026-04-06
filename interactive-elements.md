@@ -36,7 +36,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 <hr>
 
 # 3. Button Wording & Styling
-- Use action verbs: Save, Publish, Send
+👉 Use action verbs: Save, Publish, Send
 - Task-specific: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
 - Keep concise and clear
 - Front-load keywords: first 1–2 words should communicate the action (also helps scanning and SEO)
@@ -74,7 +74,6 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 <img width="468" height="286" alt="image" src="https://github.com/user-attachments/assets/60dd57de-cceb-4eb1-b4f8-8ea079029ad3" />
 
 ### 6. Capitalisation
-Keep consistent and readable
 <img width="651" height="137" alt="image" src="https://github.com/user-attachments/assets/4fa2889a-c063-45f3-829d-514039d2d74e" />
 
 <hr>
@@ -114,6 +113,18 @@ Keep consistent and readable
   <a href="/article">How to Bake a Cake</a>
 </h3>
 ```
+
+<img width="601" height="398" alt="image" src="https://github.com/user-attachments/assets/1a4e1654-dd63-495f-a8df-f3ba34e9fbd1" />
+
+<img width="653" height="251" alt="image" src="https://github.com/user-attachments/assets/dfad0caf-97d8-463b-8c8b-f1eb5923dd0d" />
+
+<img width="605" height="253" alt="image" src="https://github.com/user-attachments/assets/f266e4d2-56b7-4c5f-8d3a-98344450aa17" />
+
+<img width="250" height="357" alt="image" src="https://github.com/user-attachments/assets/35a33308-0774-436f-8c3f-adf240d42f0e" />
+
+<img width="446" height="276" alt="image" src="https://github.com/user-attachments/assets/dc014836-1ded-436f-9c0d-396528b85d3d" />
+
+<img width="440" height="172" alt="image" src="https://github.com/user-attachments/assets/19c8bf60-44d2-4dfe-a19e-41b95b260ffb" />
 
 <hr>
 
@@ -209,8 +220,6 @@ Changes in appearance/behaviour based on interaction or system status.
 - Accessibility tools
 - “Explore by touch”
 
-<img width="601" height="398" alt="image" src="https://github.com/user-attachments/assets/1a4e1654-dd63-495f-a8df-f3ba34e9fbd1" />
-
 <hr>
 
 ## 9. POUR
@@ -220,13 +229,3 @@ Changes in appearance/behaviour based on interaction or system status.
 - Robust 🔧 → works across devices & assistive tech
 
 <hr>
-
-<img width="653" height="251" alt="image" src="https://github.com/user-attachments/assets/dfad0caf-97d8-463b-8c8b-f1eb5923dd0d" />
-
-<img width="605" height="253" alt="image" src="https://github.com/user-attachments/assets/f266e4d2-56b7-4c5f-8d3a-98344450aa17" />
-
-<img width="250" height="357" alt="image" src="https://github.com/user-attachments/assets/35a33308-0774-436f-8c3f-adf240d42f0e" />
-
-<img width="446" height="276" alt="image" src="https://github.com/user-attachments/assets/dc014836-1ded-436f-9c0d-396528b85d3d" />
-
-<img width="440" height="172" alt="image" src="https://github.com/user-attachments/assets/19c8bf60-44d2-4dfe-a19e-41b95b260ffb" />
