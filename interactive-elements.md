@@ -1,5 +1,5 @@
 # 1. Interactive Elements ▶️
-Triggered by an action: click, tap, pinch, long press, gestures
+Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 - Buttons, Links
 - Checkboxes, Radio buttons
