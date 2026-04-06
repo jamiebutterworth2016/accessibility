@@ -60,7 +60,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 ## 3. Border Radius (personality)
 - 0px → serious, formal
-- ** ~4px → neutral / balanced**
+- **~4px → neutral / balanced**
 - 100% → rounded, playful, friendly
 <img width="1315" height="257" alt="image" src="https://github.com/user-attachments/assets/6f72937a-46bf-420b-879c-254379c7b9e9" />
 
