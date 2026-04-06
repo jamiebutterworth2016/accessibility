@@ -2,7 +2,7 @@
 
 ## 1. Colour Contrast
 
-Check contrast during development.
+👉 Check contrast during development.
 
 **✅ Information-bearing elements need high contrast:**
 - Text / UI elements: ≥ 4.5:1
@@ -15,9 +15,11 @@ Check contrast during development.
 <hr>
 
 ## 2. Colour Independence
+👉 Don't use colour to convey information.
+👉 Design initially in greyscale ⬛⬜ → add colour later 🎨
+👉 Use multiple indicators: text, icons, shapes, underlines, bold, patterns
 
-**Principle:** Colour must not be the only way to convey information<br>
-Colour Vision Deficiency (CVD)
+CVD = Colour Vision Deficiency (colour blindness)
 
 | CVD Type        | Description               | Hard-to-Distinguish Colours                             |
 |-----------------|---------------------------|---------------------------------------------------------|
@@ -31,11 +33,6 @@ Colour Vision Deficiency (CVD)
 - Greyscale test ⬛⬜ → checks colourblind accessibility  
 - Contrast test → checks visual clarity
 - Use simulators/plugins to preview
-
-**Design approach:**
-- Start in black & white → add colour later
-- Use multiple indicators: text, icons, shapes, underlines, bold, patterns
-- Never rely on colour alone
 
 **UI & Interaction Cues**
 - Use multiple cues for state (menus, steps): underlines, bold, icons (ticks ✔), connection lines
