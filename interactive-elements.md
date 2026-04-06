@@ -222,7 +222,7 @@ Changes in appearance/behaviour based on interaction or system status.
 
 <hr>
 
-## 9. POUR
+# 9. POUR
 - Perceivable 👀 → visible, readable, not colour-only
 - Operable 🖱 → keyboard accessible, usable controls
 - Understandable 🧠 → clear, predictable
