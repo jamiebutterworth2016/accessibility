@@ -8,49 +8,47 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 - Breadcrumbs, Progress trackers, Drop zones
 
 **Design Guidelines**
-- Size: large enough to tap/click
-- Spacing: prevents accidental interaction
-- Location: placed where users expect
+- Size → large enough to tap/click
+- Spacing → prevents accidental interaction
+- Location → placed where users expect
 
 **Checklist**
-- Is the element clearly interactive?
+- Is it clearly interactive?
 - Are signifiers strong and unambiguous?
-- Can users easily understand what it does and how to use it?
+- Is the action obvious?
 
 <hr>
 
 # 2. Signifiers 🛜
-- Signals an element is interactive
-- Communicates how to interact and provides feedback.
-- Reduce confusion and improve usability.
-- Example: a blue🟦, underlined word signals a clickable link
+👉 Signals an element is interactive, how to use it and what happens next.
 
 **Types**
-- Visual - colour, shape, underline, icons 👀
-- Auditory - screen reader output, confirmation sounds 🔊
-- Physical - touch, vibration, device movement ✋
+- Visual → colour, shape, underline, icons 👀
+- Auditory → screen reader output, confirmation sounds 🔊
+- Physical → touch, vibration, device movement ✋
 
 **Best Practices**
 - Buttons should “look clickable”
-- Icons can suggest gestures (tap, pinch, swipe)
+- Icons suggest gestures (tap, pinch, swipe)
 - Use haptic feedback for touch-based devices
-- Consider mobile, wearables and controllers
+- Consider mobile, wearables, controllers
 
 <hr>
 
-# 3. Buttons: Wording & Styling (Signifiers)
-**Wording**
-- **Use action verbs:** Save, Publish, Send
+# 3. Button Wording & Styling
+- Use action verbs: Save, Publish, Send
 - Task-specific: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
-- Keep text concise and clear
+- Keep concise and clear
 - Front-load keywords: first 1–2 words should communicate the action (also helps scanning and SEO)
 
-## 1. Shape & Consistency
-- Buttons are typically rectangular with slightly rounded corners
+## Styling (Signifiers)
+
+### 1. Shape & Consistency
+- Typically rectangular with slight rounding
 - Consistent signifiers help users recognise patterns quickly
 <img width="1243" height="196" alt="image" src="https://github.com/user-attachments/assets/576a0edd-32b6-40cd-bceb-04454f625979" />
 
-## 2. Hierarchy
+### 2. Hierarchy
 👉 Aim for one primary button per page. Use hierarchy (multiple button types) to reduce competition.
 - Primary → solid fill
 - Secondary → outline/stroke
@@ -58,28 +56,30 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 <img width="489" height="273" alt="image" src="https://github.com/user-attachments/assets/95e80eeb-a069-4167-aba1-2dd84d6bde63" />
 <img width="566" height="260" alt="image" src="https://github.com/user-attachments/assets/7547ac4a-ec5b-469d-a347-e58819bc6f78" />
 
-## 3. Border Radius (personality)
+### 3. Border Radius (Personality)
 - 0px → serious, formal
-- **~4px → neutral / balanced**
+- **~4px → balanced**
 - 100% → rounded, playful, friendly
 <img width="1315" height="257" alt="image" src="https://github.com/user-attachments/assets/6f72937a-46bf-420b-879c-254379c7b9e9" />
 
-## 4. Shadows (elevation)
+### 4. Shadows (Elevation)
+- Suggest depth and interactivity
+- Can reinforce hover/active states
 <img width="656" height="152" alt="image" src="https://github.com/user-attachments/assets/5cec8d3e-6fab-4e13-9b36-4df7906db267" />
 
-## 5. Proximity
-- Elements too close in proximity can suffocate each other (breathability).
+### 5. Proximity
 - Group related elements.
-- Use white space between grouped elements.
+- Use whitespace between grouped elements.
 - Use larger touch targets - selectable by everyone, including people with motor disabilities.
 <img width="468" height="286" alt="image" src="https://github.com/user-attachments/assets/60dd57de-cceb-4eb1-b4f8-8ea079029ad3" />
 
-## 6. Capitalisation
+### 6. Capitalisation
+Keep consistent and readable
 <img width="651" height="137" alt="image" src="https://github.com/user-attachments/assets/4fa2889a-c063-45f3-829d-514039d2d74e" />
 
 <hr>
 
-# 4. Link: Wording & Styling
+# 4. Link Wording & Styling
 - Links = promises → text must match destination and action
 - Must be clear, descriptive, unique, front-loaded
    - ❌ Read more → ✅ SEO hacks for 2026
@@ -87,47 +87,53 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 **Indicating Behaviour**
 - External links → icon after text
-- File downloads → include file type (e.g., Report PDF)
+- File downloads → include file type (e.g. Report PDF)
 
 **Accessibility**
-- Text makes sense in isolation (Links List)
+- Must make sense in isolation (Links List)
 - Screen reader friendly
 - Supports fast scanning
 
 **Visual Signifiers**
-- Underline (avoid using colour only)
+- Use underline (not colour alone)
 - Bold for standalone links
-- Blue🟦 is classic, but brand colours ok if consistent
+- Blue🟦 is classic, but can use brand colours if consistent
 - Avoid blue text unless link
+- Underline links in body text
+- Menus may not need underline (context is clear)
+- Avoid borders (looks like buttons)
+- Maintain contrast:
+   - ≥ 3:1 vs surrounding text
+   - ≥ 4.5:1 vs background
 
 **Headings as Links (Best Practice):**
 - Improves discoverability, accessibility, SEO
-- Avoid vague “Read More” links
+- Avoid “Read More” links
 ```
 <h3>
   <a href="/article">How to Bake a Cake</a>
 </h3>
 ```
 
-**User Scanning Behaviour**
-- F-pattern: top-left → horizontal → down-left
-- Users read ~20–28% content → rely on headings, links, buttons
-
 <hr>
 
 # 5. Buttons vs Links
 
-**When to Use Link 🔗**
-<br>Navigate pages, scroll to sections, open new tab/window, action doesn’t change data
+**Use LINK to 🔗**
+- Navigate pages
+- Jump to sections
+- Change URL
+- No data/state change
+- Open new tab/window
 
-**When to Use Button ▶️**
-- Perform actions (Submit, Upload, Play media)
-- Change frontend/backend state
-- Trigger JS (modals, tabs, toggles)
+**Use BUTTON to ▶️**
+- Perform actions (Submit, Upload)
+- Change state (UI/backend)
+- Trigger JS (modals, toggles)
 
-**Keyboard Activation**
-- Buttons → Enter + Space
-- Links → Enter
+**Keyboard**
+- Button → Enter + Space
+- Link → Enter
 
 <hr>
 
