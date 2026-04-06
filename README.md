@@ -1,27 +1,16 @@
 # Accessibility & Usability Notes
 
 ## 1. Colour Contrast
-- Ensure text and key elements are readable
-- Guided by the W3C Web Accessibility Initiative
 
-**Information-bearing elements need high contrast:**
-- Text, images of text
-- UI components: buttons, toggles, charts
+Check contrast during development.
+
+**✅ Information-bearing elements need high contrast:**
+- Text / UI elements: ≥ 4.5:1
+- Large text / UI controls: ≥ 3:1
+- Graphs: ≥ 3:1
 
 **Decorative/disabled elements are exempt:**
 - Background patterns, artistic borders, logos, photos, non-functional icons
-
-**Contrast ratios**
-Standard: 4.5 : 1
-Exceptions: 3 : 1 for:
-- Large text (14pt bold / 18pt regular)
-- UI controls (toggles)
-- Graph elements (pie chart segments)
-
-**Best practices**
-- Check contrast during development
-- Ask: _Is this element informative or decorative?_
-- Use contrast checking tools
 
 <hr>
 
