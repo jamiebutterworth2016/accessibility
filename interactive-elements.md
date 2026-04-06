@@ -16,15 +16,13 @@ Design must support easy interaction:
 # 2. Signifiers 🛜
 - Signals the element is interactive
 - Shows how to interact and what happens on interaction
+- Strong signifiers reduce confusion and improve usability
+- Example: a blue🟦, underlined word signals a clickable link
 
 **Types**
 - Visual - colour, shape, underline, icons 👀
 - Auditory - screen reader output, sounds 🔊
 - Physical - touch, vibration, device movement ✋
-
-**Goal**
-- Strong signifiers reduce confusion and improve usability
-- Example: a blue🟦, underlined word signals a clickable link
 
 <hr>
 
