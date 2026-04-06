@@ -139,28 +139,27 @@ Keep consistent and readable
 
 # 6. Interactive States
 
-Changes in appearance or behaviour based on user or system interaction.
+Changes in appearance/behaviour based on interaction or system status.
 - Buttons, Links, Cards/Tiles, Toggles, Checkboxes, Radio buttons, Dropdowns, Icons, Lists, Accordions, Forms
 
-**Fundamental States**
+**States**
 - Default / Enabled
 - Focus (keyboard) 🔍
 - Hover (mouse) 👆
-- Pressed / Active
+- Active / Pressed
 - Visited (links) 🔗
 - Disabled 🚫
 - Selected / Toggled ✔️
-- Processing (loading) 🔃
+- Loading 🔃
 - Abort / Cancel ❌
 - Error (forms)
 
-**Design Best Practices**
-- Plan states early with the component
-- Design in UI context & design system
-- Use placeholders for unconfirmed states
-- Designers own states, collaboration with devs
+**Design Principles**
+- Design states early
+- Ensure consistency across system
+- Work in UI screens (context) and Design system (consistency)
 
-**Accessibility Checklist for States:**
+**Accessibility Checklist**
 1. What is the state?
 1. Is it essential?
 1. Is it contrast compliant?
@@ -168,29 +167,29 @@ Changes in appearance or behaviour based on user or system interaction.
 1. Is it noticeable?
 1. Clear signifiers?
 
-**Focus & Hover**
-- Focus → essential, high contrast, keyboard users
-- Hover → improves discoverability, maintain contrast, not colour-only
+**Focus**
+- High contrast
+- Always visible
+- Essential for keyboard users
+
+**Hover**
+- Improves discoverability
+- Must not rely on colour alone
 
 <hr>
 
 # 7. User Scanning & Behaviour
-- Users read ~20–28% of content; scan in F-pattern (top-left → horizontal → down left)
-- Information Foraging: rely on links, headings, buttons
-- Clear link/button text reduces cognitive load
-- Sighted users → scan visually
-- Blind users → scan structurally
+- Users read ~20–28% of content
+- Scan in F-pattern (top-left → horizontal → down left)
+- Use information foraging (look for cues)
+- Users rely on: Links, Headings, Buttons
 
-How Content is Scanned:
-- Sighted users → visually
-- Blind users → screen readers (structural scanning)
-- Search engines → page structure & keywords
+**How Content is Scanned**
+- Sighted users → visually scanning
+- Blind users → structural scanning (screen readers)
+- Search engines → structure + keywords
 
-How content is scanned:
-- Sighted users → visually
-- Blind users → structurally via screen readers
-
-Screen Reader Navigation Features:
+**Screen Reader Navigation**
 - Links List
 - Headings List
 - Buttons List
@@ -199,173 +198,30 @@ Screen Reader Navigation Features:
 <hr>
 
 # 8. Usability & Testing 🧪
-- Evaluate ease-of-use and intuitiveness
+- Evaluate ease-of-use and clarity
 - Include diverse participants, including users with disabilities
-- Observe confusing or weak signifiers
-- Identify misleading affordances (e.g., Norman Doors)
+- Identify weak signifiers
+- Discoverability → can users figure it out?
+- Feedback → confirms actions (visual, sound, haptic)
 
-**Core UX Concepts:**
-- Discoverability: user can figure out actions without instructions
-- Feedback: visual, auditory or haptic signals to confirm actions
-
-**Tools & Methods:**
-- Accessibility testing apps
-- Explore by touch
-- Usability testing with real users
+**Methods:**
+- Usability testing
+- Accessibility tools
+- “Explore by touch”
 
 <img width="601" height="398" alt="image" src="https://github.com/user-attachments/assets/1a4e1654-dd63-495f-a8df-f3ba34e9fbd1" />
 
-# Interactive States
-
-Interactive states describe how an element changes appearance or behaviour based on:
-- User interaction (hover, click, focus)
-- System status (loading, error)
-
-👉 States do not change the element itself, only how it behaves or appears
-
-**Interactive states communicate:**
-- What the system is doing
-- What the user is doing
-- What can be done next
-
 <hr>
 
-## 1. Stateful Elements
-
-👉 If it’s interactive → it needs states
-
-- Buttons, Links
-- Cards / Tiles
-- Toggles, Checkboxes, Radio buttons
-- Dropdowns (incl. multi-select)
-- Icons (favourites, ratings)
-- Lists (emails, tables)
-- Accordions
-- Forms & inputs
+## 9. POUR
+- Perceivable 👀 → visible, readable, not colour-only
+- Operable 🖱 → keyboard accessible, usable controls
+- Understandable 🧠 → clear, predictable
+- Robust 🔧 → works across devices & assistive tech
 
 <hr>
-
-## 2. Fundamental States (10)
-
-👉 Not every element uses all states, but these are the core set
-
-- Default / Enabled
-- Focus (keyboard users)
-- Hover (mouse users) 👆
-- Pressed / Active
-- Visited (links) 🔗
-- Disabled 🚫
-- Selected / Toggled
-- Processing (loading) 🔃
-- Abort (cancel) ❌
-- Error (especially forms)
-
-<hr>
-
-## 3. Designing States (Best Practice)
-
-**Design Early**
-- Plan states with the component, not after
-- Avoid inconsistent behaviour across components
-
-**Work in Two Contexts**
-- In UI screens → ensures it works in context
-- In design system → ensures consistency
-
-👉 Move between both
-
-**Use Placeholders**
-- Add state placeholders early
-- Fully design only when component is confirmed
-
-**Ownership**
-👉 Designers define states — not developers
-Collaboration is key, but design responsibility stays with designers
-
-<hr>
-
-## 4. Accessibility: 6 Key Questions
-Use this checklist for every state:
-1. What is the state?
-2. Is it essential? (If removed, does usability break?)
-3. Is it contrast compliant?
-4. Is it colour independent?
-5. Is it noticeable enough?
-6. Does it use clear signifiers?
-
-👉 Goal: Yes to all
-
-<hr>
-
-## 5. Key State Types
-### Focus States 🔍
-- Must be clearly visible
-- High contrast
-- Not colour-only
-- Large and obvious
-
-👉 Essential for keyboard users
-
-### Hover States 👆
-- Improve discoverability
-- Must maintain text contrast (4.5:1)
-- Should not rely on colour alone
-
-👉 Not always “essential”, but very important for usability
-
-<hr>
-
-## 7. Core Principles (POUR)
-
-**👀 Perceivable**
-- Text readable (contrast ≥ 4.5:1)
-- States visible (focus, hover, error)
-- Not colour-only communication
-
-**🖱 Operable**
-- Fully keyboard accessible
-- Clear focus states
-- Large, tappable targets
-
-**🧠 Understandable**
-- Clear wording (buttons, links, errors)
-- Predictable interactions
-- Consistent patterns
-
-**🔧 Robust**
-- Works with screen readers
-- Semantic HTML
-- Cross-browser/device compatible
-
-<hr>
-
-## 3. Consistency vs Similarity vs Distinctness
-- Aim for consistency.
-- Only sacrifice consistency to improve the UX.
 
 <img width="653" height="251" alt="image" src="https://github.com/user-attachments/assets/dfad0caf-97d8-463b-8c8b-f1eb5923dd0d" />
-
-## 4. Link Signifiers
-
-Be different from non-clickable text.
-Use signifier.
-Underline, not bold.
-Don't use colour as signifier.
-Google's links. Use bold for links and spacing and blue link colour and underline on hover and display naked URL above link.
-Use low hanging underlines.
-Underline styling.
-Blue is classic link colour - but can change colour to match brand.
-Don't need to underline menu items - obviously links.
-Underline links with surrounding text. Embolden standalone links.
-
-Alternatives to underlines.
-Avoid borders - looks too much like a button.
-Luminous links - 3 to 1 constrast ratio with surrounding black unlinked text. For colourblind.
-4.5+ to 1 against white background. For low vision.
-
-Avoid blue text if not a link. Blue text is strongly associated with links.
-
-Or reserve a chosen coour for links.
 
 <img width="605" height="253" alt="image" src="https://github.com/user-attachments/assets/f266e4d2-56b7-4c5f-8d3a-98344450aa17" />
 
@@ -374,31 +230,3 @@ Or reserve a chosen coour for links.
 <img width="446" height="276" alt="image" src="https://github.com/user-attachments/assets/dc014836-1ded-436f-9c0d-396528b85d3d" />
 
 <img width="440" height="172" alt="image" src="https://github.com/user-attachments/assets/19c8bf60-44d2-4dfe-a19e-41b95b260ffb" />
-
-## 8. WCAG Hierarchy (How It’s Structured)
-
-The accessibility guidelines are organised like this:
-
-**1. Principles (Top Level)**
-
-POUR (Perceivable, Operable, Understandable, Robust)
-
-**2. Guidelines**
-
-High-level goals under each principle
-
-Example: “Provide text alternatives for non-text content”
-
-**3. Success Criteria**
-
-- A (basic)
-- AA (standard — most products aim for this)
-- AAA (advanced)
-
-Example: Text contrast must be at least 4.5:1
-
-**4. Techniques to meet criteria**
-
-- Add focus outlines
-- Use semantic HTML
-- Provide labels for inputs
