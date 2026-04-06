@@ -226,56 +226,31 @@ Use this checklist for every state:
 
 <hr>
 
-## 6. Accessibility Foundations (Expanded)
-### A. POUR Principles (from WCAG)
+## 7. Core Principles (POUR)
 
-These come from the World Wide Web Consortium and form the foundation of accessibility.
+**👀 Perceivable**
+- Text readable (contrast ≥ 4.5:1)
+- States visible (focus, hover, error)
+- Not colour-only communication
 
-**1. Perceivable**
+**🖱 Operable**
+- Fully keyboard accessible
+- Clear focus states
+- Large, tappable targets
 
-👉 Users must be able to see or sense the UI
-
-- Text is readable (contrast)
-- States are visible (focus ring, hover change)
-- Not relying on colour alone
-
-👉 If users can’t perceive a state → it doesn’t exist
-
-**2. Operable**
-
-👉 Users must be able to interact with it
-
-- Keyboard navigation works
-- Focus states are visible
-- Click/tap targets are usable
-
-👉 If a user can’t operate it → it’s unusable
-
-**3. Understandable**
-
-👉 Users must be able to understand what’s happening
-
-- Clear error messages
+**🧠 Understandable**
+- Clear wording (buttons, links, errors)
 - Predictable interactions
-- Consistent state behaviour
+- Consistent patterns
 
-👉 Confusing states = broken UX
+**🔧 Robust**
+- Works with screen readers
+- Semantic HTML
+- Cross-browser/device compatible
 
-**4. Robust**
+<hr>
 
-👉 Works across:
-
-- Browsers
-- Devices
-- Assistive technologies (screen readers)
-
-Examples:
-- Proper semantic HTML
-- Accessible states (ARIA where needed)
-
-👉 Future-proof and compatible
-
-### B. WCAG Hierarchy (How It’s Structured)
+## 8. WCAG Hierarchy (How It’s Structured)
 
 The accessibility guidelines are organised like this:
 
