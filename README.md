@@ -15,7 +15,7 @@
 <hr>
 
 ## 2. Colour Independence
-- Don't use colour to convey information.
+👉 Don't use colour to convey information.
 - Design initially in greyscale ⬛⬜ → add colour later 🎨
 - Use multiple indicators: text, icons, shapes, underlines, bold, patterns
 
