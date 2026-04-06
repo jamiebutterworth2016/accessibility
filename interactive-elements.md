@@ -1,14 +1,13 @@
 # 1. Interactive Elements ▶️
+Triggered by an action: click, tap, pinch, long press, gestures
+
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
 - Cards / Tiles, Menus, Dropdowns
 - Breadcrumbs, Progress trackers, Drop zones
 
-**Interaction**
-- Triggers an action: click, tap, pinch, long press, gestures
-
-Design must support easy interaction:
+**Design must support easy interaction:**
 - Size → large enough to tap/click
 - Spacing → prevents accidental interaction
 - Location → placed where users expect
