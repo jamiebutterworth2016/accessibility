@@ -9,8 +9,8 @@
 - Large text / UI controls: ≥ 3:1
 - Graphs: ≥ 3:1
 
-**Decorative/disabled elements are exempt:**
-- Background patterns, artistic borders, logos, photos, non-functional icons
+**Decorative and disabled elements are exempt:**
+<br>Background patterns, artistic borders, logos, photos, non-functional icons
 
 <hr>
 
