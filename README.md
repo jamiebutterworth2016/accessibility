@@ -16,6 +16,7 @@ Decorative or disabled elements are exempt (patterns, logos, non-functional icon
 👉 Don't rely on colour to convey information.
 - Design first (and test) in greyscale ⬛⬜ → Add colour later 🎨
 - Use multiple indicators: text, icons, shapes, patterns, bold, underlines.
+- Progress trackers: use multiple cues for state (menus, steps): underlines, bold, icons (ticks ✔), connection lines, bold/underlined current step
 
 <img width="466" height="200" alt="image" src="https://github.com/user-attachments/assets/0ddd9e0e-4e9f-4fde-a348-bc5ded216c88" />
 
@@ -26,11 +27,6 @@ CVD = Colour Vision Deficiency (colour blindness)
 | Deuteranopia - green-blind (common)  |🟨/🟫|🟨/🟫|🟦| Red/Green → Yellow/Brown. Purple🟪 → Blue🟦|
 | Protanopia - red-blind               |⬛/🟫|🟨/🟩|🟦| Red → Black/Brown                           |
 | Tritanopia - blue-yellow blind (rare)|🟥    |🟩   |🟩| Blue → Green. Yellow🟨 → Grey/Pink⬜🩷     |
-
-**UI & Interaction Cues**
-- Use multiple cues for state (menus, steps): underlines, bold, icons (ticks ✔), connection lines
-- Highlight current step clearly
-- Progress trackers: tick symbols, lines, bold/underlined current step
 
 <img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
 
