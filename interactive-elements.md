@@ -20,7 +20,8 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 <hr>
 
 # 2. Signifiers 🛜
-- Signals that an element is interactive, communicates how to interact and provides feedback.
+- Signals an element is interactive
+- Communicates how to interact and provides feedback.
 - Reduce confusion and improve usability.
 - Example: a blue🟦, underlined word signals a clickable link
 
@@ -37,8 +38,8 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 <hr>
 
-# 3. Buttons: Wording & Styling
-**Wording Guidelines:**
+# 3. Buttons: Wording & Styling (Signifiers)
+**Wording**
 - **Use action verbs:** Save, Publish, Send
 - Task-specific: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
 - Keep text concise and clear
