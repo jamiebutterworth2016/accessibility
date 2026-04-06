@@ -1,80 +1,85 @@
-# 1. Interactive Elements & Signifiers
-
-## Interactive Elements ▶️
+# 1. Interactive Elements ▶️
 - Buttons, Links
 - Checkboxes, Radio buttons
 - Sliders, Carousels
-- Cards / Tiles
-- Menus, Breadcrumbs
-- Dropdowns, Progress trackers, Drop zones
+- Cards / Tiles, Menus, Dropdowns
+- Breadcrumbs, Progress trackers, Drop zones
 
-Triggers an action.
-Supports: Click, Tap, Pinch, Long press, Gestures.
+**Interaction**
+- Triggers an action: click, tap, pinch, long press, gestures
 
-**Design must support easy interaction:**
-- Size – large enough to use comfortably
-- Spacing – prevents accidental interaction
-- Location – placed where users expect
+Design must support easy interaction:
+- Size → large enough to tap/click
+- Spacing → prevents accidental interaction
+- Location → placed where users expect
 
-## Signifiers 🛜
+# 2. Signifiers 🛜
 - Signals the element is interactive
-- How to interact with it
-- What will happen on interaction
-
-✅ Improves usability and accessibility.
-Example: A blue, underlined word signals a clickable link.
+- Shows how to interact and what happens on interaction
 
 **Types**
 - Visual - colour, shape, underline, icons 👀
 - Auditory - screen reader output, sounds 🔊
-- Physical - touch, vibration, movement ✋
+- Physical - touch, vibration, device movement ✋
+
+**Goal**
+- Strong signifiers reduce confusion and improve usability
+- Example: a blue🟦, underlined word signals a clickable link
 
 <hr>
 
-# 2. Link & Button Wording
-**Text must be:** clear, concise, descriptive, action-oriented.
+# 3. Button Styling & Wording
+- Use action-oriented verbs: Save, Publish, Send
+- Use task-specific wording rather than generic: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
+- Keep text concise, clear, descriptive
+- Front-Load Keywords: Users only read first 1–2 words.
 
-**Front-Load Keywords**
-Users only read first 1–2 words.
-
-**Use Verbs & Key Nouns**
-- Buttons → verbs: Save, Publish, Download
-- Links → verbs or nouns: View samples, SEO hacks
-
-**❌ Avoid words which increase cognitive load**
-- Click here
-- Read more
-- Learn more
-- Naked URLs
+**Visual Styling**
+- Strong contrast
+- Clear shape and affordance
+- Hover/focus animation (visual feedback)
 
 <hr>
 
-# 4. Scanning, Accessibility & Behaviour
+# 4. Link Styling & Wording
 
-**User Behaviour**
-- Users typically read only ~20-28% of content
-- Scan in an F-pattern: Top-left → across → down
+**Core Principles**
+- Links = promises → link text must match destination and action
+- Text must be clear, descriptive, unique, front-loaded
+-- ❌ Read more → ✅ SEO hacks for 2026
+-- ❌ Click here → ✅ View samples from past work
+  
+**Indicating Behaviour**
+- External links → icon after text
+- File downloads → include file type: “Report (PDF)”
 
-**Information Foraging**
-Users search for meaning using:
-- Links
-- Headings
-- Buttons
-👉 Link text must stand out and be clear instantly
+**Accessibility**
+- Works independently → must make sense in isolation
+- Screen reader friendly
+- Supports fast scanning
 
-**Accessibility & Screen Readers**
+<hr>
+
+# 5. Scanning & User Behaviour
+- Users read ~20–28% of content; scan in F-pattern (top-left → horizontal → down left)
+- Information foraging → users rely on links, headings, buttons
+- Clear link/button text reduces cognitive load
+- Sighted users → scan visually
+- Blind users → scan structurally
+
 Screen readers navigate pages using:
 - Links List
 - Headings List
 - Buttons List
 - Form Fields List
 
-**Key Insight**
-- Sighted users → scan visually
-- Blind users → scan structurally
-👉 Link text must work in isolation
+<hr>
 
-Vague links add cognitive load: require extra reading and slow users down.
+# 6. Usability & Testing
+- Evaluate how easy and intuitive a design is
+- Include people with disabilities and diverse participants
+- Observe confusing or weak signifiers and misleading affordances (e.g., Norman Doors)
+- Key UX principles: Discoverability and Feedback (visual, auditory, haptic)
 
 <hr>
 
