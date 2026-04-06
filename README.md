@@ -15,23 +15,21 @@
 <hr>
 
 ## 2. Colour Independence
-👉 Don't use colour to convey information.
-- Design initially in greyscale ⬛⬜ → add colour later 🎨
-- Use multiple indicators: text, icons, shapes, underlines, bold, patterns
+👉 Don't rely on colour to convey information.
+- Use multiple indicators instead: text, icons, shapes, underlines, bold, patterns
+- Design initially in greyscale ⬛⬜ → Add colour later 🎨
 
 CVD = Colour Vision Deficiency (colour blindness)
 
-| CVD Type        | Description               | Hard-to-Distinguish Colours                             |
-|-----------------|---------------------------|---------------------------------------------------------|
-| Deuteranopia 🟦🟨 | Green-blind, most common  | Red/Green 🟥🟩, Brown/Green 🟫🟩, Blue/Green 🟦🟩 |
-| Protanopia 🟦🟨   | Red-blind                 | Red/Green 🟥🟩, Red/Grey 🟥⬛                        |
-| Tritanopia 🩵🩷   | Blue-yellow blind, rare   | Blue/Green 🟦🟩, Blue/Purple 🟦🟪, Yellow/Violet 🟨🟪        |
-| Achromatopsia ⬛⬜ | Monochrome, very rare     | Any colour-only differences                              |
+| CVD Type     |🟥   |🟩    |🟦| Description                                                       |
+|--------------|------|------|---|-------------------------------------------------------------------|
+| Deuteranopia |🟨/🟫|🟨/🟫|🟦| Green-blind (common). Red/Green → Yellow/Brown. Purple🟪 → Blue🟦|
+| Protanopia   |⬛/🟫|🟨/🟩|🟦| Red-blind. Red → Black/Brown.                                     |
+| Tritanopia   |🟥    |🟩   |🟩| Blue-yellow blind (rare). Blue → Green. Yellow🟨 → Grey/Pink⬜🩷 |
 ---
 
 **Testing:**
 - Greyscale test ⬛⬜ → checks colourblind accessibility  
-- Contrast test → checks visual clarity
 - Use simulators/plugins to preview
 
 **UI & Interaction Cues**
