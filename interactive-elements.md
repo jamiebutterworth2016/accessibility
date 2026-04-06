@@ -51,7 +51,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 <img width="1243" height="196" alt="image" src="https://github.com/user-attachments/assets/576a0edd-32b6-40cd-bceb-04454f625979" />
 
 ## 2. Hierarchy & Importance
-👉 Aim for one primary button per page.
+👉 Aim for one primary button per page. Use hierarchy (multiple button types) to reduce competition.
 - Primary → solid fill
 - Secondary → outline/stroke
 - Tertiary → borderless / text-only
@@ -60,24 +60,21 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 ## 3. Border radius (personality)
 - 0px → serious, formal
--** ~4px → neutral / balanced**
+- ** ~4px → neutral / balanced**
 - 100% → rounded, playful, friendly
 <img width="1315" height="257" alt="image" src="https://github.com/user-attachments/assets/6f72937a-46bf-420b-879c-254379c7b9e9" />
 
 ## 4. Shadows (elevation)
 <img width="656" height="152" alt="image" src="https://github.com/user-attachments/assets/5cec8d3e-6fab-4e13-9b36-4df7906db267" />
 
-## 5. Competition
-- Use hierarchy (multiple button types) to reduce competition.
-
-## 6. Proximity
+## 5. Proximity
 - Elements too close in proximity can suffocate each other (breathability).
 - Group related elements.
 - Use white space between grouped elements.
 - Use larger touch targets - selectable by everyone, including people with motor disabilities.
 <img width="468" height="286" alt="image" src="https://github.com/user-attachments/assets/60dd57de-cceb-4eb1-b4f8-8ea079029ad3" />
 
-## 7. Capitalisation
+## 6. Capitalisation
 <img width="651" height="137" alt="image" src="https://github.com/user-attachments/assets/4fa2889a-c063-45f3-829d-514039d2d74e" />
 
 <hr>
