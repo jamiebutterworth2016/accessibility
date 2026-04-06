@@ -19,10 +19,8 @@
 
 **Usability**
 - Large enough to tap/click
-- Enough spacing to prevent errors
+- Enough spacing to prevent misclicks
 - Positioned where users expect
-
-**Feedback**
 - Responds on interaction (visual, sound, or haptic)
 
 **Accessibility**
