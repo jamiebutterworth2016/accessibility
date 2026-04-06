@@ -30,6 +30,9 @@ CVD = Colour Vision Deficiency (colour blindness)
 - Highlight current step clearly
 - Progress trackers: tick symbols, lines, bold/underlined current step
 
+<img width="349" height="629" alt="image" src="https://github.com/user-attachments/assets/75c0cbb1-5453-4199-8025-ea1d74d6ac71" />
+
+
 <hr>
 
 ## 3. Visualisation & Maps: Colour-Independent Design
