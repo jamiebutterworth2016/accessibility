@@ -8,9 +8,9 @@ Triggered by an action: click, tap, pinch, long press, gestures
 - Breadcrumbs, Progress trackers, Drop zones
 
 **Design Guidelines**
-- Size → large enough to tap/click
-- Spacing → prevents accidental interaction
-- Location → placed where users expect
+- Size: large enough to tap/click
+- Spacing: prevents accidental interaction
+- Location: placed where users expect
 
 **Checklist**
 - Is the element clearly interactive?
@@ -37,10 +37,11 @@ Triggered by an action: click, tap, pinch, long press, gestures
 
 <hr>
 
-# 3. Button Design & Styling
-- **Use action-oriented verbs:** Save, Publish, Send
-- Task-specific wording: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
-- Keep text concise, clear, descriptive
+# 3. Buttons: Wording & Styling
+**Wording Guidelines:**
+- **Use action verbs:** Save, Publish, Send
+- Task-specific: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
+- Keep text concise and clear
 - Front-load keywords: first 1–2 words should communicate the action (also helps scanning and SEO)
 
 **Visual Styling**
@@ -48,9 +49,25 @@ Triggered by an action: click, tap, pinch, long press, gestures
 - Clear shape
 - Hover/focus animations for feedback
 
+**Hierarchy & Importance**
+- Primary → solid fill
+- Secondary → outline/stroke
+- Tertiary → borderless / text-only
+
+**Additional Signifiers**
+- Shape & consistency
+- Border radius for personality (0px = formal, 100% = playful)
+- Shadows for elevation
+- Proximity and grouping (breathability, white space)
+- Capitalisation: consistent, readable
+
+**Best Practices**
+- One primary button per page
+- Maintain consistency → only adjust for UX improvement
+
 <hr>
 
-# 4. Link Design & Wording
+# 4. Link: Wording & Styling
 - Links = promises → text must match destination and action
 - Must be clear, descriptive, unique, front-loaded
    - ❌ Read more → ✅ SEO hacks for 2026
@@ -58,12 +75,18 @@ Triggered by an action: click, tap, pinch, long press, gestures
 
 **Indicating Behaviour**
 - External links → icon after text
-- File downloads → include file type: “Report (PDF)”
+- File downloads → include file type (e.g., Report PDF)
 
 **Accessibility**
-- Text must make sense in isolation (Links List)
+- Text makes sense in isolation (Links List)
 - Screen reader friendly
-- Supports scanning for fast information foraging
+- Supports fast scanning
+
+**Visual Signifiers**
+- Underline (avoid using colour only)
+- Bold for standalone links
+- Blue🟦 is classic, but brand colours ok if consistent
+- Avoid blue text unless link
 
 **Headings as Links (Best Practice):**
 - Improves discoverability, accessibility, SEO
@@ -73,15 +96,63 @@ Triggered by an action: click, tap, pinch, long press, gestures
   <a href="/article">How to Bake a Cake</a>
 </h3>
 ```
-Avoid:
-❌ Read more, Learn more, Click here, Here, Details, Naked URLs
 
-Visual Signifiers: Underline, bold styling → users recognize these as links
-
-- Vague link text hides the action, increasing cognitive load
-- Clear link text immediately communicates purpose and supports scanning
+**User Scanning Behaviour**
+- F-pattern: top-left → horizontal → down-left
+- Users read ~20–28% content → rely on headings, links, buttons
 
 <hr>
+
+# 5. Interactive States
+
+Changes in appearance or behaviour based on user or system interaction.
+- Buttons, Links, Cards/Tiles, Toggles, Checkboxes, Radio buttons, Dropdowns, Icons, Lists, Accordions, Forms
+
+**Fundamental States**
+- Default / Enabled
+- Focus (keyboard) 🔍
+- Hover (mouse) 👆
+- Pressed / Active
+- Visited (links) 🔗
+- Disabled 🚫
+- Selected / Toggled ✔️
+- Processing (loading) 🔃
+- Abort / Cancel ❌
+- Error (forms)
+
+**Design Best Practices**
+- Plan states early with the component
+- Design in UI context & design system
+- Use placeholders for unconfirmed states
+- Designers own states, collaboration with devs
+
+**Accessibility Checklist for States:**
+1. What is the state?
+1. Is it essential?
+1. Is it contrast compliant?
+1. Is it colour-independent?
+1. Is it noticeable?
+1. Clear signifiers?
+
+**Focus & Hover**
+- Focus → essential, high contrast, keyboard users
+- Hover → improves discoverability, maintain contrast, not colour-only
+
+<hr>
+
+# 6. Buttons vs Links
+
+**When to Use Link 🔗**
+<br>Navigate pages, scroll to sections, open new tab/window, action doesn’t change data
+
+**When to Use Button ▶️**
+- Perform actions (Submit, Upload, Play media)
+- Change frontend/backend state
+- Trigger JS (modals, tabs, toggles)
+
+**Keyboard Activation**
+- Buttons → Enter + Space
+- Links → Enter
 
 # 5. User Scanning & Behaviour
 - Users read ~20–28% of content; scan in F-pattern (top-left → horizontal → down left)
