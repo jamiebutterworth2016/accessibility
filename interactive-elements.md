@@ -1,5 +1,6 @@
-# 1. Interactive Elements ▶️
-Triggered by an action: click, tap, pinch, long press, gestures 👆
+# 1. Interactive Elements & Signifiers ▶️
+👉 Interactive elements triggered by actions (click, tap, pinch, gestures)
+👉 Signifiers signal element is interactive, how to do it and what will happen
 
 - Buttons, Links
 - Checkboxes, Radio buttons
@@ -7,35 +8,31 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 - Cards / Tiles, Menus, Dropdowns
 - Breadcrumbs, Progress trackers, Drop zones
 
-**Design Guidelines**
-- Size → large enough to tap/click
-- Spacing → prevents accidental interaction
-- Location → placed where users expect
+**Signifier Types**
+- Visual 👀 → colour (not alone), shape (buttons), underline (links), icons
+- Auditory 🔊 → screen reader output, feedback sounds
+- Physical ✋ → touch, vibration (haptics), device movement
 
-**Checklist**
-- Is it clearly interactive?
-- Are signifiers strong and unambiguous?
-- Is the action obvious?
+**Clarity**
+- Looks obviously interactive
+- Strong, unambiguous signifiers
+- Action is clear
 
-<hr>
+**Usability**
+- Large enough to tap/click
+- Enough spacing to prevent errors
+- Positioned where users expect
 
-# 2. Signifiers 🛜
-👉 Signals an element is interactive, how to use it and what happens next.
+**Feedback**
+- Responds on interaction (visual, sound, or haptic)
 
-**Types**
-- Visual → colour, shape, underline, icons 👀
-- Auditory → screen reader output, confirmation sounds 🔊
-- Physical → touch, vibration, device movement ✋
-
-**Best Practices**
-- Buttons should “look clickable”
-- Icons suggest gestures (tap, pinch, swipe)
-- Use haptic feedback for touch-based devices
-- Consider mobile, wearables, controllers
+**Accessibility**
+- Works with screen readers
+- Supports touch, mouse, keyboard
 
 <hr>
 
-# 3. Button Wording & Styling
+# 2. Button Wording & Styling
 👉 Use action verbs: Save, Publish, Send
 - Task-specific: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
 - Keep concise and clear
@@ -78,7 +75,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 <hr>
 
-# 4. Link Wording & Styling
+# 3. Link Wording & Styling
 - Links = promises → text must match destination and action
 - Must be clear, descriptive, unique, front-loaded
    - ❌ Read more → ✅ SEO hacks for 2026
@@ -128,7 +125,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 <hr>
 
-# 5. Buttons vs Links
+# 4. Buttons vs Links
 
 **Use LINK to 🔗**
 - Navigate pages
@@ -148,7 +145,7 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 <hr>
 
-# 6. Interactive States
+# 5. Interactive States
 
 Changes in appearance/behaviour based on interaction or system status.
 - Buttons, Links, Cards/Tiles, Toggles, Checkboxes, Radio buttons, Dropdowns, Icons, Lists, Accordions, Forms
@@ -189,7 +186,7 @@ Changes in appearance/behaviour based on interaction or system status.
 
 <hr>
 
-# 7. User Scanning & Behaviour
+# 6. User Scanning & Behaviour
 - Users read ~20–28% of content
 - Scan in F-pattern (top-left → horizontal → down left)
 - Use information foraging (look for cues)
@@ -208,7 +205,7 @@ Changes in appearance/behaviour based on interaction or system status.
 
 <hr>
 
-# 8. Usability & Testing 🧪
+# 7. Usability & Testing 🧪
 - Evaluate ease-of-use and clarity
 - Include diverse participants, including users with disabilities
 - Identify weak signifiers
@@ -222,7 +219,7 @@ Changes in appearance/behaviour based on interaction or system status.
 
 <hr>
 
-# 9. POUR
+# 8. POUR
 - Perceivable 👀 → visible, readable, not colour-only
 - Operable 🖱 → keyboard accessible, usable controls
 - Understandable 🧠 → clear, predictable
