@@ -44,22 +44,40 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 - Keep text concise and clear
 - Front-load keywords: first 1–2 words should communicate the action (also helps scanning and SEO)
 
-**Visual Styling**
-- Strong contrast
-- Clear shape
-- Hover/focus animations for feedback
+**Shape & Consistency**
+- Buttons are typically rectangular with slightly rounded corners
+- Consistent signifiers help users recognise patterns quickly
+<img width="1243" height="196" alt="image" src="https://github.com/user-attachments/assets/576a0edd-32b6-40cd-bceb-04454f625979" />
 
 **Hierarchy & Importance**
 - Primary → solid fill
 - Secondary → outline/stroke
 - Tertiary → borderless / text-only
+<img width="489" height="273" alt="image" src="https://github.com/user-attachments/assets/95e80eeb-a069-4167-aba1-2dd84d6bde63" />
+<img width="566" height="260" alt="image" src="https://github.com/user-attachments/assets/7547ac4a-ec5b-469d-a347-e58819bc6f78" />
 
-**Additional Signifiers**
-- Shape & consistency
-- Border radius for personality (0px = formal, 100% = playful)
-- Shadows for elevation
-- Proximity and grouping (breathability, white space)
-- Capitalisation: consistent, readable
+**Border radius (personality)**
+- 0px → serious, formal
+-** ~4px → neutral / balanced**
+- 100% → rounded, playful, friendly
+<img width="1315" height="257" alt="image" src="https://github.com/user-attachments/assets/6f72937a-46bf-420b-879c-254379c7b9e9" />
+
+**Shadows for elevation**
+<img width="656" height="152" alt="image" src="https://github.com/user-attachments/assets/5cec8d3e-6fab-4e13-9b36-4df7906db267" />
+
+**Competition**
+- Aim for one primary button per page.
+- Use hierarchy (multiple button types) to reduce competition.
+
+**Proximity**
+- Elements too close in proximity can suffocate each other (breathability).
+- Group related elements.
+- Use white space between grouped elements.
+- Use larger touch targets - selectable by everyone, including people with motor disabilities.
+<img width="468" height="286" alt="image" src="https://github.com/user-attachments/assets/60dd57de-cceb-4eb1-b4f8-8ea079029ad3" />
+
+**Capitalisation**
+<img width="651" height="137" alt="image" src="https://github.com/user-attachments/assets/4fa2889a-c063-45f3-829d-514039d2d74e" />
 
 **Best Practices**
 - One primary button per page
