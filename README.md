@@ -21,12 +21,11 @@
 
 CVD = Colour Vision Deficiency (colour blindness)
 
-| CVD Type     |🟥   |🟩    |🟦| Description                                                       |
-|--------------|------|------|---|-------------------------------------------------------------------|
-| Deuteranopia |🟨/🟫|🟨/🟫|🟦| Green-blind (common). Red/Green → Yellow/Brown. Purple🟪 → Blue🟦|
-| Protanopia   |⬛/🟫|🟨/🟩|🟦| Red-blind. Red → Black/Brown.                                     |
-| Tritanopia   |🟥    |🟩   |🟩| Blue-yellow blind (rare). Blue → Green. Yellow🟨 → Grey/Pink⬜🩷 |
----
+| CVD Type                             |🟥   |🟩    |🟦| Description                                |
+|--------------------------------------|------|------|---|--------------------------------------------|
+| Deuteranopia - green-blind (common)  |🟨/🟫|🟨/🟫|🟦| Red/Green → Yellow/Brown. Purple🟪 → Blue🟦|
+| Protanopia - red-blind               |⬛/🟫|🟨/🟩|🟦| Red → Black/Brown.                          |
+| Tritanopia - blue-yellow blind (rare)|🟥    |🟩   |🟩| Blue → Green. Yellow🟨 → Grey/Pink⬜🩷     |
 
 **Testing:**
 - Greyscale test ⬛⬜ → checks colourblind accessibility  
