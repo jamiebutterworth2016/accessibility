@@ -16,8 +16,8 @@
 
 ## 2. Colour Independence
 👉 Don't use colour to convey information.
-👉 Design initially in greyscale ⬛⬜ → add colour later 🎨
-👉 Use multiple indicators: text, icons, shapes, underlines, bold, patterns
+<br>👉 Design initially in greyscale ⬛⬜ → add colour later 🎨
+<br>👉 Use multiple indicators: text, icons, shapes, underlines, bold, patterns
 
 CVD = Colour Vision Deficiency (colour blindness)
 
