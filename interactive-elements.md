@@ -7,53 +7,73 @@ Triggered by an action: click, tap, pinch, long press, gestures
 - Cards / Tiles, Menus, Dropdowns
 - Breadcrumbs, Progress trackers, Drop zones
 
-**Design must support easy interaction:**
+**Design Guidelines**
 - Size → large enough to tap/click
 - Spacing → prevents accidental interaction
 - Location → placed where users expect
 
+**Checklist**
+- Is the element clearly interactive?
+- Are signifiers strong and unambiguous?
+- Can users easily understand what it does and how to use it?
+
+<hr>
+
 # 2. Signifiers 🛜
-- Signals the element is interactive
-- Shows how to interact and what happens on interaction
-- Strong signifiers reduce confusion and improve usability
+- Signals that an element is interactive, communicates how to interact, and provides feedback.
+- Reduce confusion and improve usability.
 - Example: a blue🟦, underlined word signals a clickable link
 
 **Types**
 - Visual - colour, shape, underline, icons 👀
-- Auditory - screen reader output, sounds 🔊
+- Auditory - screen reader output, confirmation sounds 🔊
 - Physical - touch, vibration, device movement ✋
+
+**Best Practices**
+- Buttons should “look clickable”
+- Icons can suggest gestures (tap, pinch, swipe)
+- Use haptic feedback for touch-based devices
+- Consider mobile, wearables, and controllers
 
 <hr>
 
-# 3. Button Styling & Wording
-- Use action-oriented verbs: Save, Publish, Send
-- Use task-specific wording rather than generic: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
+# 3. Button Design & Styling
+- **Use action-oriented verbs:** Save, Publish, Send
+- Task-specific wording: ❌ Submit → ✅ Publish, ❌ Yes/No → ✅ Save/Discard
 - Keep text concise, clear, descriptive
-- Front-Load Keywords: Users only read first 1–2 words.
+- Front-load Keywords: first 1–2 words should communicate the action
 
 **Visual Styling**
 - Strong contrast
 - Clear shape and affordance
-- Hover/focus animation (visual feedback)
+- Hover/focus animations for feedback
 
 <hr>
 
-# 4. Link Styling & Wording
+# 4. Link Design & Wording
+- Links = promises → text must match destination and action
 
-**Core Principles**
-- Links = promises → link text must match destination and action
-- Text must be clear, descriptive, unique, front-loaded
--- ❌ Read more → ✅ SEO hacks for 2026
--- ❌ Click here → ✅ View samples from past work
-  
+Must be clear, descriptive, unique, front-loaded
+- ❌ Read more → ✅ SEO hacks for 2026
+- ❌ Click here → ✅ View samples from past work
+
 **Indicating Behaviour**
 - External links → icon after text
 - File downloads → include file type: “Report (PDF)”
 
 **Accessibility**
-- Works independently → must make sense in isolation
+- Text must make sense in isolation (Links List)
 - Screen reader friendly
-- Supports fast scanning
+- Supports scanning for fast information foraging
+
+**Headings as Links (Best Practice):**
+- Improves discoverability, accessibility, SEO
+- Avoid vague “Read More” links
+```
+<h3>
+  <a href="/article">How to Bake a Cake</a>
+</h3>
+```
 
 <hr>
 
