@@ -32,22 +32,12 @@ CVD = Colour Vision Deficiency (colour blindness)
 
 <hr>
 
-## 3. Visualisation & Maps: Colour-Independent Design
-**Principles**:
-- Colour-independent design
-- Minimum 3:1 contrast
-- Pass greyscale test ⬛⬜
-- Provide alternative formats (e.g., tables)
-
-**Charts & Graphs**
-- **Bar charts:** pattern fills, labels/values above bars, interactive highlighting (hover/tap)
-- **Line graphs:** differentiate lines with dashes, dots, shapes; alternative formats; scalable SVGs
-
-**Maps & Visual Systems**
-- Use labels instead of colour-only indicators
-- Different line styles: solid, dotted
-- Patterns, shapes
-- Ensure usability in greyscale
+# 2. Charts, Maps & Visualisations
+- Never rely on colour alone → use labels, patterns, shapes
+- Minimum contrast ≥ 3:1
+- Test in greyscale ⬛⬜
+- Bar charts → pattern fills + values + interactive highlighting
+- Line charts → different dashes/dots/shapes
+- Maps → line styles, patterns, labels instead of colours only
 
 <img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
-
