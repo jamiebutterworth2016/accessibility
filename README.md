@@ -1,35 +1,29 @@
-# Accessibility & Usability Notes
+# 1. Colour Accessibility
 
-## 1. Colour Contrast
-
-👉 Check contrast during development.
+## A. Colour Contrast
 
 **✅ Information-bearing elements need high contrast:**
 - Text / UI elements: ≥ 4.5:1
 - Large text / UI controls: ≥ 3:1
 - Graphs: ≥ 3:1
 
-**Decorative and disabled elements are exempt:**
-<br>Background patterns, artistic borders, logos, photos, non-functional icons
+Decorative or disabled elements are exempt (patterns, logos, non-functional icons).
+<br>👉 Test contrast during development.
 
 <hr>
 
-## 2. Colour Independence
+## B. Colour Independence
 👉 Don't rely on colour to convey information.
-- Use multiple indicators instead: text, icons, shapes, underlines, bold, patterns
-- Design initially in greyscale ⬛⬜ → Add colour later 🎨
+- Use multiple indicators instead: text, icons, shapes, patterns, bold, underlines.
+- Design first (and test) in greyscale ⬛⬜ → Add colour later 🎨
 
 CVD = Colour Vision Deficiency (colour blindness)
 
 | CVD Type                             |🟥   |🟩    |🟦| Description                                |
 |--------------------------------------|------|------|---|--------------------------------------------|
 | Deuteranopia - green-blind (common)  |🟨/🟫|🟨/🟫|🟦| Red/Green → Yellow/Brown. Purple🟪 → Blue🟦|
-| Protanopia - red-blind               |⬛/🟫|🟨/🟩|🟦| Red → Black/Brown.                          |
+| Protanopia - red-blind               |⬛/🟫|🟨/🟩|🟦| Red → Black/Brown                           |
 | Tritanopia - blue-yellow blind (rare)|🟥    |🟩   |🟩| Blue → Green. Yellow🟨 → Grey/Pink⬜🩷     |
-
-**Testing:**
-- Greyscale test ⬛⬜ → checks colourblind accessibility  
-- Use simulators/plugins to preview
 
 **UI & Interaction Cues**
 - Use multiple cues for state (menus, steps): underlines, bold, icons (ticks ✔), connection lines
