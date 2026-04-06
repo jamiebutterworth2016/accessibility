@@ -103,7 +103,23 @@ Triggered by an action: click, tap, pinch, long press, gestures 👆
 
 <hr>
 
-# 5. Interactive States
+# 5. Buttons vs Links
+
+**When to Use Link 🔗**
+<br>Navigate pages, scroll to sections, open new tab/window, action doesn’t change data
+
+**When to Use Button ▶️**
+- Perform actions (Submit, Upload, Play media)
+- Change frontend/backend state
+- Trigger JS (modals, tabs, toggles)
+
+**Keyboard Activation**
+- Buttons → Enter + Space
+- Links → Enter
+
+<hr>
+
+# 6. Interactive States
 
 Changes in appearance or behaviour based on user or system interaction.
 - Buttons, Links, Cards/Tiles, Toggles, Checkboxes, Radio buttons, Dropdowns, Icons, Lists, Accordions, Forms
@@ -140,21 +156,7 @@ Changes in appearance or behaviour based on user or system interaction.
 
 <hr>
 
-# 6. Buttons vs Links
-
-**When to Use Link 🔗**
-<br>Navigate pages, scroll to sections, open new tab/window, action doesn’t change data
-
-**When to Use Button ▶️**
-- Perform actions (Submit, Upload, Play media)
-- Change frontend/backend state
-- Trigger JS (modals, tabs, toggles)
-
-**Keyboard Activation**
-- Buttons → Enter + Space
-- Links → Enter
-
-# 5. User Scanning & Behaviour
+# 7. User Scanning & Behaviour
 - Users read ~20–28% of content; scan in F-pattern (top-left → horizontal → down left)
 - Information Foraging: rely on links, headings, buttons
 - Clear link/button text reduces cognitive load
@@ -178,7 +180,7 @@ Screen Reader Navigation Features:
 
 <hr>
 
-# 6. Usability & Testing 🧪
+# 8. Usability & Testing 🧪
 - Evaluate ease-of-use and intuitiveness
 - Include diverse participants, including users with disabilities
 - Observe confusing or weak signifiers
