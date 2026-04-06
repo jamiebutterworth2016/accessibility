@@ -51,14 +51,3 @@ CVD = Colour Vision Deficiency (colour blindness)
 
 <img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/723865ec-e0d4-4f41-83fb-74fd1712a288" />
 
-<hr>
-
-## 4. Types of Impairments
-- Visual: contrast, acuity, colour vision
-- Auditory
-- Motor
-- Cognitive
-
-**Key terms**
-- CVD (Colour Vision Deficiency): difficulty distinguishing colours
-- Acuity: clarity of vision
